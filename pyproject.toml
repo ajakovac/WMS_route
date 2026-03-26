@@ -1,0 +1,13 @@
+[project]
+name = "wms-route"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.3",
+    "matplotlib>=3.10.8",
+    "networkx>=3.6.1",
+    "plotly>=6.6.0",
+    "requests>=2.32.5",
+]

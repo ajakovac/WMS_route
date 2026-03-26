@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WMS Route Planner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            height: calc(100vh - 80px);
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .panel {
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow-y: auto;
+        }
+
+        .control-panel {
+            flex: 0 0 200px;
+        }
+
+        .visualization-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .editor-panel {
+            flex: 0 0 280px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+
+        input, button, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #2980b9;
+        }
+
+        button.secondary {
+            background: #95a5a6;
+        }
+
+        button.secondary:hover {
+            background: #7f8c8d;
+        }
+
+        #visualization {
+            flex: 1;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        #mapEditor {
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            resize: vertical;
+            height: 300px;
+        }
+
+        .status-box {
+            background: #ecf0f1;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+
+        .status-label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .route-info {
+            background: #d5f4e6;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-size: 12px;
+            border-left: 4px solid #27ae60;
+        }
+
+        .error {
+            background: #fadbd8;
+            color: #c0392b;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-size: 12px;
+            border-left: 4px solid #c0392b;
+        }
+
+        .success {
+            background: #d5f4e6;
+            color: #27ae60;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-size: 12px;
+            border-left: 4px solid #27ae60;
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                flex-direction: column;
+            }
+            .control-panel, .editor-panel {
+                flex: 0 0 auto;
+            }
+            .visualization-panel {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🏭 WMS Route Planner</h1>
+    </div>
+
+    <div class="container">
+        <!-- Control Panel -->
+        <div class="panel control-panel">
+            <div class="section">
+                <div class="section-title">Current Status</div>
+                <div class="status-box">
+                    <div class="status-label">Start Node:</div>
+                    <div id="currentStart">-</div>
+                </div>
+                <button onclick="loadStatus()" class="secondary">Refresh Status</button>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Set Start Node</div>
+                <input type="text" id="startNode" placeholder="e.g., Entrance" />
+                <button onclick="setStart()">Set Start</button>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Get Route</div>
+                <input type="text" id="targetNode" placeholder="e.g., Packing" />
+                <button onclick="getRoute()">Get Route</button>
+                <div id="routeResult"></div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Visualization</div>
+                <button onclick="visualizeMap()">Full Map</button>
+                <button onclick="visualizeRoute()" class="secondary">Map with Route</button>
+            </div>
+        </div>
+
+        <!-- Visualization Panel -->
+        <div class="panel visualization-panel">
+            <div class="section-title">Warehouse Map</div>
+            <iframe id="visualization" style="border: none; width: 100%; height: 100%;"></iframe>
+        </div>
+
+        <!-- Map Editor Panel -->
+        <div class="panel editor-panel">
+            <div class="section">
+                <div class="section-title">Map Editor</div>
+                <textarea id="mapEditor" placeholder='{"Node1": {"Node2": 5}, ...}'></textarea>
+                <button onclick="updateMap()">Update Map</button>
+                <button onclick="loadMapFromServer()" class="secondary">Load Current</button>
+                <div id="editorMessage"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://127.0.0.1:5000';
+
+        // Load and display current status
+        async function loadStatus() {
+            try {
+                const response = await fetch(`${API_BASE}/status`);
+                if (!response.ok) throw new Error('Failed to load status');
+                const data = await response.json();
+                document.getElementById('currentStart').textContent = data.current_start || '-';
+                showMessage('Status loaded', 'success');
+            } catch (error) {
+                showMessage('Error: ' + error.message, 'error');
+            }
+        }
+
+        // Set start node
+        async function setStart() {
+            const start = document.getElementById('startNode').value;
+            if (!start) {
+                showMessage('Enter a start node', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/set_start`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ start })
+                });
+                if (!response.ok) throw new Error('Failed to set start');
+                const data = await response.json();
+                document.getElementById('currentStart').textContent = data.start;
+                showMessage(`Start set to ${data.start}, ${data.routes_count} routes computed`, 'success');
+                document.getElementById('startNode').value = '';
+            } catch (error) {
+                showMessage('Error: ' + error.message, 'error');
+            }
+        }
+
+        // Get route to target
+        async function getRoute() {
+            const target = document.getElementById('targetNode').value;
+            if (!target) {
+                showMessage('Enter a target node', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/get_route?target=${target}`);
+                if (!response.ok) throw new Error('Route not found');
+                const data = await response.json();
+                const routeInfo = `
+                    <div class="route-info">
+                        <strong>Path:</strong> ${data.path.join(' → ')}<br>
+                        <strong>Distance:</strong> ${data.distance}
+                    </div>
+                `;
+                document.getElementById('routeResult').innerHTML = routeInfo;
+            } catch (error) {
+                document.getElementById('routeResult').innerHTML = `<div class="error">Error: ${error.message}</div>`;
+            }
+        }
+
+        // Visualize full map
+        function visualizeMap() {
+            document.getElementById('visualization').src = `${API_BASE}/visualize`;
+        }
+
+        // Visualize map with current route
+        function visualizeRoute() {
+            const target = document.getElementById('targetNode').value;
+            if (!target) {
+                showMessage('Enter a target node first', 'error');
+                return;
+            }
+            document.getElementById('visualization').src = `${API_BASE}/visualize?target=${target}`;
+        }
+
+        // Load current map from server
+        async function loadMapFromServer() {
+            try {
+                const response = await fetch(`${API_BASE}/status`);
+                if (!response.ok) throw new Error('Failed to load map');
+                const data = await response.json();
+                const mapJson = JSON.stringify(data.map, null, 2);
+                document.getElementById('mapEditor').value = mapJson;
+                showMessage('Map loaded from server', 'success');
+            } catch (error) {
+                showMessage('Error: ' + error.message, 'error');
+            }
+        }
+
+        // Update map from editor
+        async function updateMap() {
+            const mapText = document.getElementById('mapEditor').value;
+            if (!mapText.trim()) {
+                showMessage('Enter map data', 'error');
+                return;
+            }
+
+            try {
+                const graph = JSON.parse(mapText);
+                const response = await fetch(`${API_BASE}/modify_map`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ graph })
+                });
+                if (!response.ok) throw new Error('Failed to update map');
+                const data = await response.json();
+                showMessage('Map updated successfully', 'success');
+                loadStatus();
+                visualizeMap();
+            } catch (error) {
+                showMessage('Error: ' + error.message, 'error');
+            }
+        }
+
+        // Show temporary message
+        function showMessage(msg, type) {
+            const messageDiv = document.getElementById('editorMessage');
+            messageDiv.innerHTML = `<div class="${type}">${msg}</div>`;
+            setTimeout(() => messageDiv.innerHTML = '', 4000);
+        }
+
+        // Initialize on load
+        window.onload = () => {
+            loadStatus();
+            visualizeMap();
+            loadMapFromServer();
+        };
+    </script>
+</body>
+</html>

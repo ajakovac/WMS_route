@@ -1,0 +1,37 @@
+{
+  "default_start": "Entrance",
+  "Entrance": {
+    "Aisle_A": 4,
+    "Aisle_B": 2
+  },
+  "Aisle_A": {
+    "Entrance": 4,
+    "Shelf_1": 5,
+    "Shelf_2": 10,
+    "Shelf_3": 2
+  },
+  "Aisle_B": {
+    "Entrance": 2,
+    "Shelf_2": 3,
+    "Packing": 7
+  },
+  "Shelf_1": {
+    "Aisle_A": 5,
+    "Packing": 6
+  },
+  "Shelf_2": {
+    "Aisle_A": 10,
+    "Aisle_B": 3,
+    "Packing": 2
+  },
+  "Packing": {
+    "Aisle_B": 7,
+    "Shelf_1": 6,
+    "Shelf_2": 2,
+    "Shelf_3": 4
+  },
+  "Shelf_3": {
+    "Aisle_A": 2,
+    "Packing": 4
+  }
+}
