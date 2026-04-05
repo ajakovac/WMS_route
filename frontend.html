@@ -39,7 +39,7 @@
         }
 
         .control-panel {
-            flex: 0 0 200px;
+            flex: 0 0 250px;
         }
 
         .visualization-panel {
@@ -147,6 +147,23 @@
             font-size: 12px;
             border-left: 4px solid #27ae60;
         }
+        
+        .checkbox-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        
+        .checkbox-container input[type="checkbox"] {
+            width: auto;
+            margin: 0;
+        }
+        
+        .checkbox-container label {
+            margin: 0;
+            flex: 1;
+        }
 
         @media (max-width: 1024px) {
             .container {
@@ -170,31 +187,33 @@
         <!-- Control Panel -->
         <div class="panel control-panel">
             <div class="section">
-                <div class="section-title">Current Status</div>
+                <div class="section-title">System Status</div>
                 <div class="status-box">
-                    <div class="status-label">Start Node:</div>
-                    <div id="currentStart">-</div>
+                    <div class="status-label">Cache Size:</div>
+                    <div id="cacheSize">0</div>
                 </div>
                 <button onclick="loadStatus()" class="secondary">Refresh Status</button>
             </div>
 
             <div class="section">
-                <div class="section-title">Set Start Node</div>
-                <input type="text" id="startNode" placeholder="e.g., Entrance" />
-                <button onclick="setStart()">Set Start</button>
-            </div>
-
-            <div class="section">
-                <div class="section-title">Get Route</div>
-                <input type="text" id="targetNode" placeholder="e.g., Packing" />
-                <button onclick="getRoute()">Get Route</button>
+                <div class="section-title">Define Route</div>
+                <input type="text" id="nodesList" placeholder="e.g., Entrance,Aisle_A,Packing" />
+                <div class="checkbox-container">
+                    <input type="checkbox" id="roundTripCheckbox" checked />
+                    <label for="roundTripCheckbox">Round Trip</label>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="optimizeCheckbox" checked />
+                    <label for="optimizeCheckbox">Optimize Route</label>
+                </div>
+                <button onclick="computeRoute()">Compute Route</button>
                 <div id="routeResult"></div>
             </div>
 
             <div class="section">
                 <div class="section-title">Visualization</div>
                 <button onclick="visualizeMap()">Full Map</button>
-                <button onclick="visualizeRoute()" class="secondary">Map with Route</button>
+                <button onclick="visualizeCurrentRoute()" class="secondary">Map with Route</button>
             </div>
         </div>
 
@@ -218,6 +237,10 @@
 
     <script>
         const API_BASE = 'http://127.0.0.1:5000';
+        let currentRoute = null;
+        let currentNodes = null;
+        let currentRoundTrip = true;
+        let currentOptimize = true;
 
         // Load and display current status
         async function loadStatus() {
@@ -225,56 +248,53 @@
                 const response = await fetch(`${API_BASE}/status`);
                 if (!response.ok) throw new Error('Failed to load status');
                 const data = await response.json();
-                document.getElementById('currentStart').textContent = data.current_start || '-';
+                document.getElementById('cacheSize').textContent = data.cache_size || '0';
                 showMessage('Status loaded', 'success');
             } catch (error) {
                 showMessage('Error: ' + error.message, 'error');
             }
         }
 
-        // Set start node
-        async function setStart() {
-            const start = document.getElementById('startNode').value;
-            if (!start) {
-                showMessage('Enter a start node', 'error');
+        // Compute route from node list
+        async function computeRoute() {
+            const nodesInput = document.getElementById('nodesList').value;
+            if (!nodesInput.trim()) {
+                showMessage('Enter at least one node', 'error');
+                return;
+            }
+
+            currentNodes = nodesInput.split(',').map(n => n.trim()).filter(n => n);
+            currentRoundTrip = document.getElementById('roundTripCheckbox').checked;
+            currentOptimize = document.getElementById('optimizeCheckbox').checked;
+
+            if (currentNodes.length === 0) {
+                showMessage('Enter at least one node', 'error');
                 return;
             }
 
             try {
-                const response = await fetch(`${API_BASE}/set_start`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ start })
+                const nodesStr = currentNodes.join(',');
+                const urlParams = new URLSearchParams({
+                    nodes: nodesStr,
+                    round_trip: currentRoundTrip.toString(),
+                    optimize: currentOptimize.toString()
                 });
-                if (!response.ok) throw new Error('Failed to set start');
+                
+                const response = await fetch(`${API_BASE}/get_route?${urlParams}`);
+                if (!response.ok) throw new Error('Route computation failed');
                 const data = await response.json();
-                document.getElementById('currentStart').textContent = data.start;
-                showMessage(`Start set to ${data.start}, ${data.routes_count} routes computed`, 'success');
-                document.getElementById('startNode').value = '';
-            } catch (error) {
-                showMessage('Error: ' + error.message, 'error');
-            }
-        }
-
-        // Get route to target
-        async function getRoute() {
-            const target = document.getElementById('targetNode').value;
-            if (!target) {
-                showMessage('Enter a target node', 'error');
-                return;
-            }
-
-            try {
-                const response = await fetch(`${API_BASE}/get_route?target=${target}`);
-                if (!response.ok) throw new Error('Route not found');
-                const data = await response.json();
+                
+                currentRoute = data.path;
+                const routeType = currentOptimize ? 'Optimized' : 'Sequential';
+                const tripType = currentRoundTrip ? 'Round Trip' : 'One Way';
                 const routeInfo = `
                     <div class="route-info">
-                        <strong>Path:</strong> ${data.path.join(' → ')}<br>
-                        <strong>Distance:</strong> ${data.distance}
+                        <strong>${routeType} ${tripType}:</strong> ${data.path.join(' → ')}<br>
+                        <strong>Distance:</strong> ${data.distance.toFixed(2)}
                     </div>
                 `;
                 document.getElementById('routeResult').innerHTML = routeInfo;
+                showMessage('Route computed successfully', 'success');
             } catch (error) {
                 document.getElementById('routeResult').innerHTML = `<div class="error">Error: ${error.message}</div>`;
             }
@@ -286,13 +306,18 @@
         }
 
         // Visualize map with current route
-        function visualizeRoute() {
-            const target = document.getElementById('targetNode').value;
-            if (!target) {
-                showMessage('Enter a target node first', 'error');
+        function visualizeCurrentRoute() {
+            if (!currentNodes || currentNodes.length === 0) {
+                showMessage('Compute a route first', 'error');
                 return;
             }
-            document.getElementById('visualization').src = `${API_BASE}/visualize?target=${target}`;
+            const nodesStr = currentNodes.join(',');
+            const urlParams = new URLSearchParams({
+                nodes: nodesStr,
+                round_trip: currentRoundTrip.toString(),
+                optimize: currentOptimize.toString()
+            });
+            document.getElementById('visualization').src = `${API_BASE}/visualize?${urlParams}`;
         }
 
         // Load current map from server
@@ -326,9 +351,13 @@
                 });
                 if (!response.ok) throw new Error('Failed to update map');
                 const data = await response.json();
-                showMessage('Map updated successfully', 'success');
+                showMessage('Map updated & cache cleared', 'success');
                 loadStatus();
                 visualizeMap();
+                // Clear current route since map changed
+                currentRoute = null;
+                currentNodes = null;
+                document.getElementById('routeResult').innerHTML = '';
             } catch (error) {
                 showMessage('Error: ' + error.message, 'error');
             }

@@ -1,11 +1,10 @@
 {
-  "default_start": "Entrance",
   "Entrance": {
-    "Aisle_A": 4,
+    "Aisle_A": 40,
     "Aisle_B": 2
   },
   "Aisle_A": {
-    "Entrance": 4,
+    "Entrance": 40,
     "Shelf_1": 5,
     "Shelf_2": 10,
     "Shelf_3": 2
