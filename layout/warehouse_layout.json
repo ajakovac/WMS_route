@@ -1,0 +1,8436 @@
+{
+  "layout_image": "warehouse-layout.png",
+  "name": "WH_Test",
+  "locations": {
+    "R1_B13_C1": {
+      "_id": "R1_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        66,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_13"
+      ],
+      "metadata": {}
+    },
+    "R1_B13_C2": {
+      "_id": "R1_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        125,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_13"
+      ],
+      "metadata": {}
+    },
+    "R1_B14_C1": {
+      "_id": "R1_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        66,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_14"
+      ],
+      "metadata": {}
+    },
+    "R1_B14_C2": {
+      "_id": "R1_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        125,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_14"
+      ],
+      "metadata": {}
+    },
+    "R1_B11_C1": {
+      "_id": "R1_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        66,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_11"
+      ],
+      "metadata": {}
+    },
+    "R1_B11_C2": {
+      "_id": "R1_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        125,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_11"
+      ],
+      "metadata": {}
+    },
+    "R1_B12_C1": {
+      "_id": "R1_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        66,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_12"
+      ],
+      "metadata": {}
+    },
+    "R1_B12_C2": {
+      "_id": "R1_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        125,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_12"
+      ],
+      "metadata": {}
+    },
+    "R1_B9_C1": {
+      "_id": "R1_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        66,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_9"
+      ],
+      "metadata": {}
+    },
+    "R1_B9_C2": {
+      "_id": "R1_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        125,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_9"
+      ],
+      "metadata": {}
+    },
+    "R1_B10_C1": {
+      "_id": "R1_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        66,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_10"
+      ],
+      "metadata": {}
+    },
+    "R1_B10_C2": {
+      "_id": "R1_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        125,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_10"
+      ],
+      "metadata": {}
+    },
+    "R1_B7_C1": {
+      "_id": "R1_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        66,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_7"
+      ],
+      "metadata": {}
+    },
+    "R1_B7_C2": {
+      "_id": "R1_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        125,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_7"
+      ],
+      "metadata": {}
+    },
+    "R1_B8_C1": {
+      "_id": "R1_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        66,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_8"
+      ],
+      "metadata": {}
+    },
+    "R1_B8_C2": {
+      "_id": "R1_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        125,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_8"
+      ],
+      "metadata": {}
+    },
+    "R1_B5_C1": {
+      "_id": "R1_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        66,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_5"
+      ],
+      "metadata": {}
+    },
+    "R1_B5_C2": {
+      "_id": "R1_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        125,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_5"
+      ],
+      "metadata": {}
+    },
+    "R1_B6_C1": {
+      "_id": "R1_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        66,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_6"
+      ],
+      "metadata": {}
+    },
+    "R1_B6_C2": {
+      "_id": "R1_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        125,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_6"
+      ],
+      "metadata": {}
+    },
+    "R1_B3_C1": {
+      "_id": "R1_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        66,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_3"
+      ],
+      "metadata": {}
+    },
+    "R1_B3_C2": {
+      "_id": "R1_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        125,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_3"
+      ],
+      "metadata": {}
+    },
+    "R1_B4_C1": {
+      "_id": "R1_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        66,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_4"
+      ],
+      "metadata": {}
+    },
+    "R1_B4_C2": {
+      "_id": "R1_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        125,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_4"
+      ],
+      "metadata": {}
+    },
+    "R1_B1_C1": {
+      "_id": "R1_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        66,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_1"
+      ],
+      "metadata": {}
+    },
+    "R1_B1_C2": {
+      "_id": "R1_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        125,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_1"
+      ],
+      "metadata": {}
+    },
+    "R1_B2_C1": {
+      "_id": "R1_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        66,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_2"
+      ],
+      "metadata": {}
+    },
+    "R1_B2_C2": {
+      "_id": "R1_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 1,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        125,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_1_2"
+      ],
+      "metadata": {}
+    },
+    "R2_B13_C1": {
+      "_id": "R2_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        145,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_13"
+      ],
+      "metadata": {}
+    },
+    "R2_B13_C2": {
+      "_id": "R2_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        204,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_13"
+      ],
+      "metadata": {}
+    },
+    "R2_B14_C1": {
+      "_id": "R2_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        145,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_14"
+      ],
+      "metadata": {}
+    },
+    "R2_B14_C2": {
+      "_id": "R2_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        204,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_14"
+      ],
+      "metadata": {}
+    },
+    "R2_B11_C1": {
+      "_id": "R2_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        145,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_11"
+      ],
+      "metadata": {}
+    },
+    "R2_B11_C2": {
+      "_id": "R2_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        204,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_11"
+      ],
+      "metadata": {}
+    },
+    "R2_B12_C1": {
+      "_id": "R2_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        145,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_12"
+      ],
+      "metadata": {}
+    },
+    "R2_B12_C2": {
+      "_id": "R2_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        204,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_12"
+      ],
+      "metadata": {}
+    },
+    "R2_B9_C1": {
+      "_id": "R2_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        145,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_9"
+      ],
+      "metadata": {}
+    },
+    "R2_B9_C2": {
+      "_id": "R2_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        204,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_9"
+      ],
+      "metadata": {}
+    },
+    "R2_B10_C1": {
+      "_id": "R2_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        145,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_10"
+      ],
+      "metadata": {}
+    },
+    "R2_B10_C2": {
+      "_id": "R2_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        204,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_10"
+      ],
+      "metadata": {}
+    },
+    "R2_B7_C1": {
+      "_id": "R2_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        145,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_7"
+      ],
+      "metadata": {}
+    },
+    "R2_B7_C2": {
+      "_id": "R2_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        204,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_7"
+      ],
+      "metadata": {}
+    },
+    "R2_B8_C1": {
+      "_id": "R2_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        145,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_8"
+      ],
+      "metadata": {}
+    },
+    "R2_B8_C2": {
+      "_id": "R2_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        204,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_8"
+      ],
+      "metadata": {}
+    },
+    "R2_B5_C1": {
+      "_id": "R2_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        145,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_5"
+      ],
+      "metadata": {}
+    },
+    "R2_B5_C2": {
+      "_id": "R2_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        204,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_5"
+      ],
+      "metadata": {}
+    },
+    "R2_B6_C1": {
+      "_id": "R2_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        145,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_6"
+      ],
+      "metadata": {}
+    },
+    "R2_B6_C2": {
+      "_id": "R2_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        204,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_6"
+      ],
+      "metadata": {}
+    },
+    "R2_B3_C1": {
+      "_id": "R2_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        145,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_3"
+      ],
+      "metadata": {}
+    },
+    "R2_B3_C2": {
+      "_id": "R2_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        204,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_3"
+      ],
+      "metadata": {}
+    },
+    "R2_B4_C1": {
+      "_id": "R2_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        145,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_4"
+      ],
+      "metadata": {}
+    },
+    "R2_B4_C2": {
+      "_id": "R2_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        204,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_4"
+      ],
+      "metadata": {}
+    },
+    "R2_B1_C1": {
+      "_id": "R2_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        145,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_1"
+      ],
+      "metadata": {}
+    },
+    "R2_B1_C2": {
+      "_id": "R2_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        204,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_1"
+      ],
+      "metadata": {}
+    },
+    "R2_B2_C1": {
+      "_id": "R2_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        145,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_2"
+      ],
+      "metadata": {}
+    },
+    "R2_B2_C2": {
+      "_id": "R2_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 2,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        204,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_2_2"
+      ],
+      "metadata": {}
+    },
+    "R3_B15_C1": {
+      "_id": "R3_B15_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 15,
+      "cell": 1,
+      "position": [
+        224,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_15"
+      ],
+      "metadata": {}
+    },
+    "R3_B15_C2": {
+      "_id": "R3_B15_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 15,
+      "cell": 2,
+      "position": [
+        283,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_15"
+      ],
+      "metadata": {}
+    },
+    "R3_B16_C1": {
+      "_id": "R3_B16_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 16,
+      "cell": 1,
+      "position": [
+        224,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_16"
+      ],
+      "metadata": {}
+    },
+    "R3_B16_C2": {
+      "_id": "R3_B16_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 16,
+      "cell": 2,
+      "position": [
+        283,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_16"
+      ],
+      "metadata": {}
+    },
+    "R3_B13_C1": {
+      "_id": "R3_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        224,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_13"
+      ],
+      "metadata": {}
+    },
+    "R3_B13_C2": {
+      "_id": "R3_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        283,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_13"
+      ],
+      "metadata": {}
+    },
+    "R3_B14_C1": {
+      "_id": "R3_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        224,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_14"
+      ],
+      "metadata": {}
+    },
+    "R3_B14_C2": {
+      "_id": "R3_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        283,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_14"
+      ],
+      "metadata": {}
+    },
+    "R3_B11_C1": {
+      "_id": "R3_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        224,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_11"
+      ],
+      "metadata": {}
+    },
+    "R3_B11_C2": {
+      "_id": "R3_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        283,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_11"
+      ],
+      "metadata": {}
+    },
+    "R3_B12_C1": {
+      "_id": "R3_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        224,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_12"
+      ],
+      "metadata": {}
+    },
+    "R3_B12_C2": {
+      "_id": "R3_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        283,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_12"
+      ],
+      "metadata": {}
+    },
+    "R3_B9_C1": {
+      "_id": "R3_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        224,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_9"
+      ],
+      "metadata": {}
+    },
+    "R3_B9_C2": {
+      "_id": "R3_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        283,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_9"
+      ],
+      "metadata": {}
+    },
+    "R3_B10_C1": {
+      "_id": "R3_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        224,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_10"
+      ],
+      "metadata": {}
+    },
+    "R3_B10_C2": {
+      "_id": "R3_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        283,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_10"
+      ],
+      "metadata": {}
+    },
+    "R3_B7_C1": {
+      "_id": "R3_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        224,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_7"
+      ],
+      "metadata": {}
+    },
+    "R3_B7_C2": {
+      "_id": "R3_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        283,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_7"
+      ],
+      "metadata": {}
+    },
+    "R3_B8_C1": {
+      "_id": "R3_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        224,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_8"
+      ],
+      "metadata": {}
+    },
+    "R3_B8_C2": {
+      "_id": "R3_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        283,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_8"
+      ],
+      "metadata": {}
+    },
+    "R3_B5_C1": {
+      "_id": "R3_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        224,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_5"
+      ],
+      "metadata": {}
+    },
+    "R3_B5_C2": {
+      "_id": "R3_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        283,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_5"
+      ],
+      "metadata": {}
+    },
+    "R3_B6_C1": {
+      "_id": "R3_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        224,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_6"
+      ],
+      "metadata": {}
+    },
+    "R3_B6_C2": {
+      "_id": "R3_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        283,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_6"
+      ],
+      "metadata": {}
+    },
+    "R3_B3_C1": {
+      "_id": "R3_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        224,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_3"
+      ],
+      "metadata": {}
+    },
+    "R3_B3_C2": {
+      "_id": "R3_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        283,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_3"
+      ],
+      "metadata": {}
+    },
+    "R3_B4_C1": {
+      "_id": "R3_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        224,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_4"
+      ],
+      "metadata": {}
+    },
+    "R3_B4_C2": {
+      "_id": "R3_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        283,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_4"
+      ],
+      "metadata": {}
+    },
+    "R3_B1_C1": {
+      "_id": "R3_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        224,
+        368
+      ],
+      "available": false,
+      "access_points": [
+        "AP_3A"
+      ],
+      "metadata": {}
+    },
+    "R3_B1_C2": {
+      "_id": "R3_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        283,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "AP_3A"
+      ],
+      "metadata": {}
+    },
+    "R3_B2_C1": {
+      "_id": "R3_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        224,
+        349
+      ],
+      "available": false,
+      "access_points": [
+        "PICK_3_2"
+      ],
+      "metadata": {}
+    },
+    "R3_B2_C2": {
+      "_id": "R3_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 3,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        283,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_3_2"
+      ],
+      "metadata": {}
+    },
+    "R4_B15_C1": {
+      "_id": "R4_B15_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 15,
+      "cell": 1,
+      "position": [
+        303,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_15"
+      ],
+      "metadata": {}
+    },
+    "R4_B15_C2": {
+      "_id": "R4_B15_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 15,
+      "cell": 2,
+      "position": [
+        362,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_15"
+      ],
+      "metadata": {}
+    },
+    "R4_B16_C1": {
+      "_id": "R4_B16_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 16,
+      "cell": 1,
+      "position": [
+        303,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_16"
+      ],
+      "metadata": {}
+    },
+    "R4_B16_C2": {
+      "_id": "R4_B16_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 16,
+      "cell": 2,
+      "position": [
+        362,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_16"
+      ],
+      "metadata": {}
+    },
+    "R4_B13_C1": {
+      "_id": "R4_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        303,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_13"
+      ],
+      "metadata": {}
+    },
+    "R4_B13_C2": {
+      "_id": "R4_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        362,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_13"
+      ],
+      "metadata": {}
+    },
+    "R4_B14_C1": {
+      "_id": "R4_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        303,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_14"
+      ],
+      "metadata": {}
+    },
+    "R4_B14_C2": {
+      "_id": "R4_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        362,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_14"
+      ],
+      "metadata": {}
+    },
+    "R4_B11_C1": {
+      "_id": "R4_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        303,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_11"
+      ],
+      "metadata": {}
+    },
+    "R4_B11_C2": {
+      "_id": "R4_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        362,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_11"
+      ],
+      "metadata": {}
+    },
+    "R4_B12_C1": {
+      "_id": "R4_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        303,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_12"
+      ],
+      "metadata": {}
+    },
+    "R4_B12_C2": {
+      "_id": "R4_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        362,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_12"
+      ],
+      "metadata": {}
+    },
+    "R4_B9_C1": {
+      "_id": "R4_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        303,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_9"
+      ],
+      "metadata": {}
+    },
+    "R4_B9_C2": {
+      "_id": "R4_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        362,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_9"
+      ],
+      "metadata": {}
+    },
+    "R4_B10_C1": {
+      "_id": "R4_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        303,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_10"
+      ],
+      "metadata": {}
+    },
+    "R4_B10_C2": {
+      "_id": "R4_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        362,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_10"
+      ],
+      "metadata": {}
+    },
+    "R4_B7_C1": {
+      "_id": "R4_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        303,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_7"
+      ],
+      "metadata": {}
+    },
+    "R4_B7_C2": {
+      "_id": "R4_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        362,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_7"
+      ],
+      "metadata": {}
+    },
+    "R4_B8_C1": {
+      "_id": "R4_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        303,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_8"
+      ],
+      "metadata": {}
+    },
+    "R4_B8_C2": {
+      "_id": "R4_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        362,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_8"
+      ],
+      "metadata": {}
+    },
+    "R4_B5_C1": {
+      "_id": "R4_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        303,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_5"
+      ],
+      "metadata": {}
+    },
+    "R4_B5_C2": {
+      "_id": "R4_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        362,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_5"
+      ],
+      "metadata": {}
+    },
+    "R4_B6_C1": {
+      "_id": "R4_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        303,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_6"
+      ],
+      "metadata": {}
+    },
+    "R4_B6_C2": {
+      "_id": "R4_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        362,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_6"
+      ],
+      "metadata": {}
+    },
+    "R4_B3_C1": {
+      "_id": "R4_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        303,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_3"
+      ],
+      "metadata": {}
+    },
+    "R4_B3_C2": {
+      "_id": "R4_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        362,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_3"
+      ],
+      "metadata": {}
+    },
+    "R4_B4_C1": {
+      "_id": "R4_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        303,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_4"
+      ],
+      "metadata": {}
+    },
+    "R4_B4_C2": {
+      "_id": "R4_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        362,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_4"
+      ],
+      "metadata": {}
+    },
+    "R4_B1_C1": {
+      "_id": "R4_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        303,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_1"
+      ],
+      "metadata": {}
+    },
+    "R4_B1_C2": {
+      "_id": "R4_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        362,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_1"
+      ],
+      "metadata": {}
+    },
+    "R4_B2_C1": {
+      "_id": "R4_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        303,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_2"
+      ],
+      "metadata": {}
+    },
+    "R4_B2_C2": {
+      "_id": "R4_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 4,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        362,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_4_2"
+      ],
+      "metadata": {}
+    },
+    "R5_B15_C1": {
+      "_id": "R5_B15_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 15,
+      "cell": 1,
+      "position": [
+        382,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_15"
+      ],
+      "metadata": {}
+    },
+    "R5_B15_C2": {
+      "_id": "R5_B15_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 15,
+      "cell": 2,
+      "position": [
+        441,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_15"
+      ],
+      "metadata": {}
+    },
+    "R5_B16_C1": {
+      "_id": "R5_B16_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 16,
+      "cell": 1,
+      "position": [
+        382,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_16"
+      ],
+      "metadata": {}
+    },
+    "R5_B16_C2": {
+      "_id": "R5_B16_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 16,
+      "cell": 2,
+      "position": [
+        441,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_16"
+      ],
+      "metadata": {}
+    },
+    "R5_B13_C1": {
+      "_id": "R5_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        382,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_13"
+      ],
+      "metadata": {}
+    },
+    "R5_B13_C2": {
+      "_id": "R5_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        441,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_13"
+      ],
+      "metadata": {}
+    },
+    "R5_B14_C1": {
+      "_id": "R5_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        382,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_14"
+      ],
+      "metadata": {}
+    },
+    "R5_B14_C2": {
+      "_id": "R5_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        441,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_14"
+      ],
+      "metadata": {}
+    },
+    "R5_B11_C1": {
+      "_id": "R5_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        382,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_11"
+      ],
+      "metadata": {}
+    },
+    "R5_B11_C2": {
+      "_id": "R5_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        441,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_11"
+      ],
+      "metadata": {}
+    },
+    "R5_B12_C1": {
+      "_id": "R5_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        382,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_12"
+      ],
+      "metadata": {}
+    },
+    "R5_B12_C2": {
+      "_id": "R5_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        441,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_12"
+      ],
+      "metadata": {}
+    },
+    "R5_B9_C1": {
+      "_id": "R5_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        382,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_9"
+      ],
+      "metadata": {}
+    },
+    "R5_B9_C2": {
+      "_id": "R5_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        441,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_9"
+      ],
+      "metadata": {}
+    },
+    "R5_B10_C1": {
+      "_id": "R5_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        382,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_10"
+      ],
+      "metadata": {}
+    },
+    "R5_B10_C2": {
+      "_id": "R5_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        441,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_10"
+      ],
+      "metadata": {}
+    },
+    "R5_B7_C1": {
+      "_id": "R5_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        382,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_7"
+      ],
+      "metadata": {}
+    },
+    "R5_B7_C2": {
+      "_id": "R5_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        441,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_7"
+      ],
+      "metadata": {}
+    },
+    "R5_B8_C1": {
+      "_id": "R5_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        382,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_8"
+      ],
+      "metadata": {}
+    },
+    "R5_B8_C2": {
+      "_id": "R5_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        441,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_8"
+      ],
+      "metadata": {}
+    },
+    "R5_B5_C1": {
+      "_id": "R5_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        382,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_5"
+      ],
+      "metadata": {}
+    },
+    "R5_B5_C2": {
+      "_id": "R5_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        441,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_5"
+      ],
+      "metadata": {}
+    },
+    "R5_B6_C1": {
+      "_id": "R5_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        382,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_6"
+      ],
+      "metadata": {}
+    },
+    "R5_B6_C2": {
+      "_id": "R5_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        441,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_6"
+      ],
+      "metadata": {}
+    },
+    "R5_B3_C1": {
+      "_id": "R5_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        382,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_3"
+      ],
+      "metadata": {}
+    },
+    "R5_B3_C2": {
+      "_id": "R5_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        441,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_3"
+      ],
+      "metadata": {}
+    },
+    "R5_B4_C1": {
+      "_id": "R5_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        382,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_4"
+      ],
+      "metadata": {}
+    },
+    "R5_B4_C2": {
+      "_id": "R5_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        441,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_4"
+      ],
+      "metadata": {}
+    },
+    "R5_B1_C1": {
+      "_id": "R5_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        382,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_1"
+      ],
+      "metadata": {}
+    },
+    "R5_B1_C2": {
+      "_id": "R5_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        441,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_1"
+      ],
+      "metadata": {}
+    },
+    "R5_B2_C1": {
+      "_id": "R5_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        382,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_2"
+      ],
+      "metadata": {}
+    },
+    "R5_B2_C2": {
+      "_id": "R5_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 5,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        441,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_5_2"
+      ],
+      "metadata": {}
+    },
+    "R6_B15_C1": {
+      "_id": "R6_B15_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 15,
+      "cell": 1,
+      "position": [
+        461,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_15"
+      ],
+      "metadata": {}
+    },
+    "R6_B15_C2": {
+      "_id": "R6_B15_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 15,
+      "cell": 2,
+      "position": [
+        520,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_15"
+      ],
+      "metadata": {}
+    },
+    "R6_B16_C1": {
+      "_id": "R6_B16_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 16,
+      "cell": 1,
+      "position": [
+        461,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_16"
+      ],
+      "metadata": {}
+    },
+    "R6_B16_C2": {
+      "_id": "R6_B16_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 16,
+      "cell": 2,
+      "position": [
+        520,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_16"
+      ],
+      "metadata": {}
+    },
+    "R6_B13_C1": {
+      "_id": "R6_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        461,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_13"
+      ],
+      "metadata": {}
+    },
+    "R6_B13_C2": {
+      "_id": "R6_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        520,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_13"
+      ],
+      "metadata": {}
+    },
+    "R6_B14_C1": {
+      "_id": "R6_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        461,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_14"
+      ],
+      "metadata": {}
+    },
+    "R6_B14_C2": {
+      "_id": "R6_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        520,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_14"
+      ],
+      "metadata": {}
+    },
+    "R6_B11_C1": {
+      "_id": "R6_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        461,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_11"
+      ],
+      "metadata": {}
+    },
+    "R6_B11_C2": {
+      "_id": "R6_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        520,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_11"
+      ],
+      "metadata": {}
+    },
+    "R6_B12_C1": {
+      "_id": "R6_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        461,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_12"
+      ],
+      "metadata": {}
+    },
+    "R6_B12_C2": {
+      "_id": "R6_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        520,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_12"
+      ],
+      "metadata": {}
+    },
+    "R6_B9_C1": {
+      "_id": "R6_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        461,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_9"
+      ],
+      "metadata": {}
+    },
+    "R6_B9_C2": {
+      "_id": "R6_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        520,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_9"
+      ],
+      "metadata": {}
+    },
+    "R6_B10_C1": {
+      "_id": "R6_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        461,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_10"
+      ],
+      "metadata": {}
+    },
+    "R6_B10_C2": {
+      "_id": "R6_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        520,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_10"
+      ],
+      "metadata": {}
+    },
+    "R6_B7_C1": {
+      "_id": "R6_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        461,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_7"
+      ],
+      "metadata": {}
+    },
+    "R6_B7_C2": {
+      "_id": "R6_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        520,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_7"
+      ],
+      "metadata": {}
+    },
+    "R6_B8_C1": {
+      "_id": "R6_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        461,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_8"
+      ],
+      "metadata": {}
+    },
+    "R6_B8_C2": {
+      "_id": "R6_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        520,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_8"
+      ],
+      "metadata": {}
+    },
+    "R6_B5_C1": {
+      "_id": "R6_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        461,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_5"
+      ],
+      "metadata": {}
+    },
+    "R6_B5_C2": {
+      "_id": "R6_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        520,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_5"
+      ],
+      "metadata": {}
+    },
+    "R6_B6_C1": {
+      "_id": "R6_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        461,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_6"
+      ],
+      "metadata": {}
+    },
+    "R6_B6_C2": {
+      "_id": "R6_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        520,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_6"
+      ],
+      "metadata": {}
+    },
+    "R6_B3_C1": {
+      "_id": "R6_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        461,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_3"
+      ],
+      "metadata": {}
+    },
+    "R6_B3_C2": {
+      "_id": "R6_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        520,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_3"
+      ],
+      "metadata": {}
+    },
+    "R6_B4_C1": {
+      "_id": "R6_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        461,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_4"
+      ],
+      "metadata": {}
+    },
+    "R6_B4_C2": {
+      "_id": "R6_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        520,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_4"
+      ],
+      "metadata": {}
+    },
+    "R6_B1_C1": {
+      "_id": "R6_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        461,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_1"
+      ],
+      "metadata": {}
+    },
+    "R6_B1_C2": {
+      "_id": "R6_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        520,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_1"
+      ],
+      "metadata": {}
+    },
+    "R6_B2_C1": {
+      "_id": "R6_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        461,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_2"
+      ],
+      "metadata": {}
+    },
+    "R6_B2_C2": {
+      "_id": "R6_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 6,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        520,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_6_2"
+      ],
+      "metadata": {}
+    },
+    "R7_B15_C1": {
+      "_id": "R7_B15_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 15,
+      "cell": 1,
+      "position": [
+        540,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_15"
+      ],
+      "metadata": {}
+    },
+    "R7_B15_C2": {
+      "_id": "R7_B15_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 15,
+      "cell": 2,
+      "position": [
+        599,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_15"
+      ],
+      "metadata": {}
+    },
+    "R7_B16_C1": {
+      "_id": "R7_B16_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 16,
+      "cell": 1,
+      "position": [
+        540,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_16"
+      ],
+      "metadata": {}
+    },
+    "R7_B16_C2": {
+      "_id": "R7_B16_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 16,
+      "cell": 2,
+      "position": [
+        599,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_16"
+      ],
+      "metadata": {}
+    },
+    "R7_B13_C1": {
+      "_id": "R7_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        540,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_13"
+      ],
+      "metadata": {}
+    },
+    "R7_B13_C2": {
+      "_id": "R7_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        599,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_13"
+      ],
+      "metadata": {}
+    },
+    "R7_B14_C1": {
+      "_id": "R7_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        540,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_14"
+      ],
+      "metadata": {}
+    },
+    "R7_B14_C2": {
+      "_id": "R7_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        599,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_14"
+      ],
+      "metadata": {}
+    },
+    "R7_B11_C1": {
+      "_id": "R7_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        540,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_11"
+      ],
+      "metadata": {}
+    },
+    "R7_B11_C2": {
+      "_id": "R7_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        599,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_11"
+      ],
+      "metadata": {}
+    },
+    "R7_B12_C1": {
+      "_id": "R7_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        540,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_12"
+      ],
+      "metadata": {}
+    },
+    "R7_B12_C2": {
+      "_id": "R7_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        599,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_12"
+      ],
+      "metadata": {}
+    },
+    "R7_B9_C1": {
+      "_id": "R7_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        540,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_9"
+      ],
+      "metadata": {}
+    },
+    "R7_B9_C2": {
+      "_id": "R7_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        599,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_9"
+      ],
+      "metadata": {}
+    },
+    "R7_B10_C1": {
+      "_id": "R7_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        540,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_10"
+      ],
+      "metadata": {}
+    },
+    "R7_B10_C2": {
+      "_id": "R7_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        599,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_10"
+      ],
+      "metadata": {}
+    },
+    "R7_B7_C1": {
+      "_id": "R7_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        540,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_7"
+      ],
+      "metadata": {}
+    },
+    "R7_B7_C2": {
+      "_id": "R7_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        599,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_7"
+      ],
+      "metadata": {}
+    },
+    "R7_B8_C1": {
+      "_id": "R7_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        540,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_8"
+      ],
+      "metadata": {}
+    },
+    "R7_B8_C2": {
+      "_id": "R7_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        599,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_8"
+      ],
+      "metadata": {}
+    },
+    "R7_B5_C1": {
+      "_id": "R7_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        540,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_5"
+      ],
+      "metadata": {}
+    },
+    "R7_B5_C2": {
+      "_id": "R7_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        599,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_5"
+      ],
+      "metadata": {}
+    },
+    "R7_B6_C1": {
+      "_id": "R7_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        540,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_6"
+      ],
+      "metadata": {}
+    },
+    "R7_B6_C2": {
+      "_id": "R7_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        599,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_6"
+      ],
+      "metadata": {}
+    },
+    "R7_B3_C1": {
+      "_id": "R7_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        540,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_3"
+      ],
+      "metadata": {}
+    },
+    "R7_B3_C2": {
+      "_id": "R7_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        599,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_3"
+      ],
+      "metadata": {}
+    },
+    "R7_B4_C1": {
+      "_id": "R7_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        540,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_4"
+      ],
+      "metadata": {}
+    },
+    "R7_B4_C2": {
+      "_id": "R7_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        599,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_4"
+      ],
+      "metadata": {}
+    },
+    "R7_B1_C1": {
+      "_id": "R7_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        540,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_1"
+      ],
+      "metadata": {}
+    },
+    "R7_B1_C2": {
+      "_id": "R7_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        599,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_1"
+      ],
+      "metadata": {}
+    },
+    "R7_B2_C1": {
+      "_id": "R7_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        540,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_2"
+      ],
+      "metadata": {}
+    },
+    "R7_B2_C2": {
+      "_id": "R7_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 7,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        599,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_7_2"
+      ],
+      "metadata": {}
+    },
+    "R8_B15_C1": {
+      "_id": "R8_B15_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 15,
+      "cell": 1,
+      "position": [
+        619,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_15"
+      ],
+      "metadata": {}
+    },
+    "R8_B15_C2": {
+      "_id": "R8_B15_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 15,
+      "cell": 2,
+      "position": [
+        678,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_15"
+      ],
+      "metadata": {}
+    },
+    "R8_B16_C1": {
+      "_id": "R8_B16_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 16,
+      "cell": 1,
+      "position": [
+        619,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_16"
+      ],
+      "metadata": {}
+    },
+    "R8_B16_C2": {
+      "_id": "R8_B16_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 16,
+      "cell": 2,
+      "position": [
+        678,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_16"
+      ],
+      "metadata": {}
+    },
+    "R8_B13_C1": {
+      "_id": "R8_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        619,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_13"
+      ],
+      "metadata": {}
+    },
+    "R8_B13_C2": {
+      "_id": "R8_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        678,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_13"
+      ],
+      "metadata": {}
+    },
+    "R8_B14_C1": {
+      "_id": "R8_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        619,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_14"
+      ],
+      "metadata": {}
+    },
+    "R8_B14_C2": {
+      "_id": "R8_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        678,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_14"
+      ],
+      "metadata": {}
+    },
+    "R8_B11_C1": {
+      "_id": "R8_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        619,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_11"
+      ],
+      "metadata": {}
+    },
+    "R8_B11_C2": {
+      "_id": "R8_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        678,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_11"
+      ],
+      "metadata": {}
+    },
+    "R8_B12_C1": {
+      "_id": "R8_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        619,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_12"
+      ],
+      "metadata": {}
+    },
+    "R8_B12_C2": {
+      "_id": "R8_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        678,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_12"
+      ],
+      "metadata": {}
+    },
+    "R8_B9_C1": {
+      "_id": "R8_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        619,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_9"
+      ],
+      "metadata": {}
+    },
+    "R8_B9_C2": {
+      "_id": "R8_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        678,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_9"
+      ],
+      "metadata": {}
+    },
+    "R8_B10_C1": {
+      "_id": "R8_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        619,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_10"
+      ],
+      "metadata": {}
+    },
+    "R8_B10_C2": {
+      "_id": "R8_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        678,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_10"
+      ],
+      "metadata": {}
+    },
+    "R8_B7_C1": {
+      "_id": "R8_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        619,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_7"
+      ],
+      "metadata": {}
+    },
+    "R8_B7_C2": {
+      "_id": "R8_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        678,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_7"
+      ],
+      "metadata": {}
+    },
+    "R8_B8_C1": {
+      "_id": "R8_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        619,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_8"
+      ],
+      "metadata": {}
+    },
+    "R8_B8_C2": {
+      "_id": "R8_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        678,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_8"
+      ],
+      "metadata": {}
+    },
+    "R8_B5_C1": {
+      "_id": "R8_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        619,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_5"
+      ],
+      "metadata": {}
+    },
+    "R8_B5_C2": {
+      "_id": "R8_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        678,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_5"
+      ],
+      "metadata": {}
+    },
+    "R8_B6_C1": {
+      "_id": "R8_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        619,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_6"
+      ],
+      "metadata": {}
+    },
+    "R8_B6_C2": {
+      "_id": "R8_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        678,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_6"
+      ],
+      "metadata": {}
+    },
+    "R8_B3_C1": {
+      "_id": "R8_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        619,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_3"
+      ],
+      "metadata": {}
+    },
+    "R8_B3_C2": {
+      "_id": "R8_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        678,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_3"
+      ],
+      "metadata": {}
+    },
+    "R8_B4_C1": {
+      "_id": "R8_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        619,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_4"
+      ],
+      "metadata": {}
+    },
+    "R8_B4_C2": {
+      "_id": "R8_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        678,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_4"
+      ],
+      "metadata": {}
+    },
+    "R8_B1_C1": {
+      "_id": "R8_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        619,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_1"
+      ],
+      "metadata": {}
+    },
+    "R8_B1_C2": {
+      "_id": "R8_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        678,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_1"
+      ],
+      "metadata": {}
+    },
+    "R8_B2_C1": {
+      "_id": "R8_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        619,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_2"
+      ],
+      "metadata": {}
+    },
+    "R8_B2_C2": {
+      "_id": "R8_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 8,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        678,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_8_2"
+      ],
+      "metadata": {}
+    },
+    "R9_B15_C1": {
+      "_id": "R9_B15_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 15,
+      "cell": 1,
+      "position": [
+        698,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_15"
+      ],
+      "metadata": {}
+    },
+    "R9_B15_C2": {
+      "_id": "R9_B15_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 15,
+      "cell": 2,
+      "position": [
+        757,
+        95
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_15"
+      ],
+      "metadata": {}
+    },
+    "R9_B16_C1": {
+      "_id": "R9_B16_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 16,
+      "cell": 1,
+      "position": [
+        698,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_16"
+      ],
+      "metadata": {}
+    },
+    "R9_B16_C2": {
+      "_id": "R9_B16_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 16,
+      "cell": 2,
+      "position": [
+        757,
+        76
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_16"
+      ],
+      "metadata": {}
+    },
+    "R9_B13_C1": {
+      "_id": "R9_B13_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 13,
+      "cell": 1,
+      "position": [
+        698,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_13"
+      ],
+      "metadata": {}
+    },
+    "R9_B13_C2": {
+      "_id": "R9_B13_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 13,
+      "cell": 2,
+      "position": [
+        757,
+        134
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_13"
+      ],
+      "metadata": {}
+    },
+    "R9_B14_C1": {
+      "_id": "R9_B14_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 14,
+      "cell": 1,
+      "position": [
+        698,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_14"
+      ],
+      "metadata": {}
+    },
+    "R9_B14_C2": {
+      "_id": "R9_B14_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 14,
+      "cell": 2,
+      "position": [
+        757,
+        115
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_14"
+      ],
+      "metadata": {}
+    },
+    "R9_B11_C1": {
+      "_id": "R9_B11_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 11,
+      "cell": 1,
+      "position": [
+        698,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_11"
+      ],
+      "metadata": {}
+    },
+    "R9_B11_C2": {
+      "_id": "R9_B11_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 11,
+      "cell": 2,
+      "position": [
+        757,
+        173
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_11"
+      ],
+      "metadata": {}
+    },
+    "R9_B12_C1": {
+      "_id": "R9_B12_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 12,
+      "cell": 1,
+      "position": [
+        698,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_12"
+      ],
+      "metadata": {}
+    },
+    "R9_B12_C2": {
+      "_id": "R9_B12_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 12,
+      "cell": 2,
+      "position": [
+        757,
+        154
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_12"
+      ],
+      "metadata": {}
+    },
+    "R9_B9_C1": {
+      "_id": "R9_B9_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 9,
+      "cell": 1,
+      "position": [
+        698,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_9"
+      ],
+      "metadata": {}
+    },
+    "R9_B9_C2": {
+      "_id": "R9_B9_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 9,
+      "cell": 2,
+      "position": [
+        757,
+        212
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_9"
+      ],
+      "metadata": {}
+    },
+    "R9_B10_C1": {
+      "_id": "R9_B10_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 10,
+      "cell": 1,
+      "position": [
+        698,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_10"
+      ],
+      "metadata": {}
+    },
+    "R9_B10_C2": {
+      "_id": "R9_B10_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 10,
+      "cell": 2,
+      "position": [
+        757,
+        193
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_10"
+      ],
+      "metadata": {}
+    },
+    "R9_B7_C1": {
+      "_id": "R9_B7_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 7,
+      "cell": 1,
+      "position": [
+        698,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_7"
+      ],
+      "metadata": {}
+    },
+    "R9_B7_C2": {
+      "_id": "R9_B7_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 7,
+      "cell": 2,
+      "position": [
+        757,
+        251
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_7"
+      ],
+      "metadata": {}
+    },
+    "R9_B8_C1": {
+      "_id": "R9_B8_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 8,
+      "cell": 1,
+      "position": [
+        698,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_8"
+      ],
+      "metadata": {}
+    },
+    "R9_B8_C2": {
+      "_id": "R9_B8_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 8,
+      "cell": 2,
+      "position": [
+        757,
+        232
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_8"
+      ],
+      "metadata": {}
+    },
+    "R9_B5_C1": {
+      "_id": "R9_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        698,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_5"
+      ],
+      "metadata": {}
+    },
+    "R9_B5_C2": {
+      "_id": "R9_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        757,
+        290
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_5"
+      ],
+      "metadata": {}
+    },
+    "R9_B6_C1": {
+      "_id": "R9_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        698,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_6"
+      ],
+      "metadata": {}
+    },
+    "R9_B6_C2": {
+      "_id": "R9_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        757,
+        271
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_6"
+      ],
+      "metadata": {}
+    },
+    "R9_B3_C1": {
+      "_id": "R9_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        698,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_3"
+      ],
+      "metadata": {}
+    },
+    "R9_B3_C2": {
+      "_id": "R9_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        757,
+        329
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_3"
+      ],
+      "metadata": {}
+    },
+    "R9_B4_C1": {
+      "_id": "R9_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        698,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_4"
+      ],
+      "metadata": {}
+    },
+    "R9_B4_C2": {
+      "_id": "R9_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        757,
+        310
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_4"
+      ],
+      "metadata": {}
+    },
+    "R9_B1_C1": {
+      "_id": "R9_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        698,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_1"
+      ],
+      "metadata": {}
+    },
+    "R9_B1_C2": {
+      "_id": "R9_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        757,
+        368
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_1"
+      ],
+      "metadata": {}
+    },
+    "R9_B2_C1": {
+      "_id": "R9_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        698,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_2"
+      ],
+      "metadata": {}
+    },
+    "R9_B2_C2": {
+      "_id": "R9_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 9,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        757,
+        349
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_9_2"
+      ],
+      "metadata": {}
+    },
+    "R10_B0_C1": {
+      "_id": "R10_B0_C1",
+      "warehouseID": "WH_Test",
+      "row": 10,
+      "bay": 0,
+      "cell": 1,
+      "position": [
+        282,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_10_1"
+      ],
+      "metadata": {}
+    },
+    "R10_B1_C1": {
+      "_id": "R10_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 10,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        282,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_10_2"
+      ],
+      "metadata": {}
+    },
+    "R10_B2_C1": {
+      "_id": "R10_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 10,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        282,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_10_3"
+      ],
+      "metadata": {}
+    },
+    "R10_B3_C1": {
+      "_id": "R10_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 10,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        282,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_10_4"
+      ],
+      "metadata": {}
+    },
+    "R10_B4_C1": {
+      "_id": "R10_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 10,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        282,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_10_5"
+      ],
+      "metadata": {}
+    },
+    "R10_B5_C1": {
+      "_id": "R10_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 10,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        282,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_10_6"
+      ],
+      "metadata": {}
+    },
+    "R10_B6_C1": {
+      "_id": "R10_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 10,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        282,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_10_7"
+      ],
+      "metadata": {}
+    },
+    "R11_B0_C1": {
+      "_id": "R11_B0_C1",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 0,
+      "cell": 1,
+      "position": [
+        361,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_1"
+      ],
+      "metadata": {}
+    },
+    "R11_B1_C1": {
+      "_id": "R11_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        361,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_2"
+      ],
+      "metadata": {}
+    },
+    "R11_B2_C1": {
+      "_id": "R11_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        361,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_3"
+      ],
+      "metadata": {}
+    },
+    "R11_B3_C1": {
+      "_id": "R11_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        361,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_4"
+      ],
+      "metadata": {}
+    },
+    "R11_B4_C1": {
+      "_id": "R11_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        361,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_5"
+      ],
+      "metadata": {}
+    },
+    "R11_B5_C1": {
+      "_id": "R11_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        361,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_6"
+      ],
+      "metadata": {}
+    },
+    "R11_B6_C1": {
+      "_id": "R11_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        361,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_7"
+      ],
+      "metadata": {}
+    },
+    "R11_B0_C2": {
+      "_id": "R11_B0_C2",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 0,
+      "cell": 2,
+      "position": [
+        305,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_1"
+      ],
+      "metadata": {}
+    },
+    "R11_B1_C2": {
+      "_id": "R11_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        305,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_2"
+      ],
+      "metadata": {}
+    },
+    "R11_B2_C2": {
+      "_id": "R11_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        305,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_3"
+      ],
+      "metadata": {}
+    },
+    "R11_B3_C2": {
+      "_id": "R11_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        305,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_4"
+      ],
+      "metadata": {}
+    },
+    "R11_B4_C2": {
+      "_id": "R11_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        305,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_5"
+      ],
+      "metadata": {}
+    },
+    "R11_B5_C2": {
+      "_id": "R11_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        305,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_6"
+      ],
+      "metadata": {}
+    },
+    "R11_B6_C2": {
+      "_id": "R11_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 11,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        305,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_11_7"
+      ],
+      "metadata": {}
+    },
+    "R12_B0_C1": {
+      "_id": "R12_B0_C1",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 0,
+      "cell": 1,
+      "position": [
+        440,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_1"
+      ],
+      "metadata": {}
+    },
+    "R12_B1_C1": {
+      "_id": "R12_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        440,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_2"
+      ],
+      "metadata": {}
+    },
+    "R12_B2_C1": {
+      "_id": "R12_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        440,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_3"
+      ],
+      "metadata": {}
+    },
+    "R12_B3_C1": {
+      "_id": "R12_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        440,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_4"
+      ],
+      "metadata": {}
+    },
+    "R12_B4_C1": {
+      "_id": "R12_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        440,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_5"
+      ],
+      "metadata": {}
+    },
+    "R12_B5_C1": {
+      "_id": "R12_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        440,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_6"
+      ],
+      "metadata": {}
+    },
+    "R12_B6_C1": {
+      "_id": "R12_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        440,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_7"
+      ],
+      "metadata": {}
+    },
+    "R12_B0_C2": {
+      "_id": "R12_B0_C2",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 0,
+      "cell": 2,
+      "position": [
+        384,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_1"
+      ],
+      "metadata": {}
+    },
+    "R12_B1_C2": {
+      "_id": "R12_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        384,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_2"
+      ],
+      "metadata": {}
+    },
+    "R12_B2_C2": {
+      "_id": "R12_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        384,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_3"
+      ],
+      "metadata": {}
+    },
+    "R12_B3_C2": {
+      "_id": "R12_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        384,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_4"
+      ],
+      "metadata": {}
+    },
+    "R12_B4_C2": {
+      "_id": "R12_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        384,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_5"
+      ],
+      "metadata": {}
+    },
+    "R12_B5_C2": {
+      "_id": "R12_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        384,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_6"
+      ],
+      "metadata": {}
+    },
+    "R12_B6_C2": {
+      "_id": "R12_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 12,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        384,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_12_7"
+      ],
+      "metadata": {}
+    },
+    "R13_B0_C1": {
+      "_id": "R13_B0_C1",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 0,
+      "cell": 1,
+      "position": [
+        519,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_1"
+      ],
+      "metadata": {}
+    },
+    "R13_B1_C1": {
+      "_id": "R13_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        519,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_2"
+      ],
+      "metadata": {}
+    },
+    "R13_B2_C1": {
+      "_id": "R13_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        519,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_3"
+      ],
+      "metadata": {}
+    },
+    "R13_B3_C1": {
+      "_id": "R13_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        519,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_4"
+      ],
+      "metadata": {}
+    },
+    "R13_B4_C1": {
+      "_id": "R13_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        519,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_5"
+      ],
+      "metadata": {}
+    },
+    "R13_B5_C1": {
+      "_id": "R13_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        519,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_6"
+      ],
+      "metadata": {}
+    },
+    "R13_B6_C1": {
+      "_id": "R13_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        519,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_7"
+      ],
+      "metadata": {}
+    },
+    "R13_B0_C2": {
+      "_id": "R13_B0_C2",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 0,
+      "cell": 2,
+      "position": [
+        463,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_1"
+      ],
+      "metadata": {}
+    },
+    "R13_B1_C2": {
+      "_id": "R13_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        463,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_2"
+      ],
+      "metadata": {}
+    },
+    "R13_B2_C2": {
+      "_id": "R13_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        463,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_3"
+      ],
+      "metadata": {}
+    },
+    "R13_B3_C2": {
+      "_id": "R13_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        463,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_4"
+      ],
+      "metadata": {}
+    },
+    "R13_B4_C2": {
+      "_id": "R13_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        463,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_5"
+      ],
+      "metadata": {}
+    },
+    "R13_B5_C2": {
+      "_id": "R13_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        463,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_6"
+      ],
+      "metadata": {}
+    },
+    "R13_B6_C2": {
+      "_id": "R13_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 13,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        463,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_13_7"
+      ],
+      "metadata": {}
+    },
+    "R14_B0_C1": {
+      "_id": "R14_B0_C1",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 0,
+      "cell": 1,
+      "position": [
+        598,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_1"
+      ],
+      "metadata": {}
+    },
+    "R14_B1_C1": {
+      "_id": "R14_B1_C1",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 1,
+      "cell": 1,
+      "position": [
+        598,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_2"
+      ],
+      "metadata": {}
+    },
+    "R14_B2_C1": {
+      "_id": "R14_B2_C1",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 2,
+      "cell": 1,
+      "position": [
+        598,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_3"
+      ],
+      "metadata": {}
+    },
+    "R14_B3_C1": {
+      "_id": "R14_B3_C1",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 3,
+      "cell": 1,
+      "position": [
+        598,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_4"
+      ],
+      "metadata": {}
+    },
+    "R14_B4_C1": {
+      "_id": "R14_B4_C1",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 4,
+      "cell": 1,
+      "position": [
+        598,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_5"
+      ],
+      "metadata": {}
+    },
+    "R14_B5_C1": {
+      "_id": "R14_B5_C1",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 5,
+      "cell": 1,
+      "position": [
+        598,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_6"
+      ],
+      "metadata": {}
+    },
+    "R14_B6_C1": {
+      "_id": "R14_B6_C1",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 6,
+      "cell": 1,
+      "position": [
+        598,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_7"
+      ],
+      "metadata": {}
+    },
+    "R14_B0_C2": {
+      "_id": "R14_B0_C2",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 0,
+      "cell": 2,
+      "position": [
+        542,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_1"
+      ],
+      "metadata": {}
+    },
+    "R14_B1_C2": {
+      "_id": "R14_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        542,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_2"
+      ],
+      "metadata": {}
+    },
+    "R14_B2_C2": {
+      "_id": "R14_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        542,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_3"
+      ],
+      "metadata": {}
+    },
+    "R14_B3_C2": {
+      "_id": "R14_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        542,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_4"
+      ],
+      "metadata": {}
+    },
+    "R14_B4_C2": {
+      "_id": "R14_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        542,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_5"
+      ],
+      "metadata": {}
+    },
+    "R14_B5_C2": {
+      "_id": "R14_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        542,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_6"
+      ],
+      "metadata": {}
+    },
+    "R14_B6_C2": {
+      "_id": "R14_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 14,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        542,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_14_7"
+      ],
+      "metadata": {}
+    },
+    "R15_B0_C2": {
+      "_id": "R15_B0_C2",
+      "warehouseID": "WH_Test",
+      "row": 15,
+      "bay": 0,
+      "cell": 2,
+      "position": [
+        621,
+        455.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_15_1"
+      ],
+      "metadata": {}
+    },
+    "R15_B1_C2": {
+      "_id": "R15_B1_C2",
+      "warehouseID": "WH_Test",
+      "row": 15,
+      "bay": 1,
+      "cell": 2,
+      "position": [
+        621,
+        469.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_15_2"
+      ],
+      "metadata": {}
+    },
+    "R15_B2_C2": {
+      "_id": "R15_B2_C2",
+      "warehouseID": "WH_Test",
+      "row": 15,
+      "bay": 2,
+      "cell": 2,
+      "position": [
+        621,
+        484.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_15_3"
+      ],
+      "metadata": {}
+    },
+    "R15_B3_C2": {
+      "_id": "R15_B3_C2",
+      "warehouseID": "WH_Test",
+      "row": 15,
+      "bay": 3,
+      "cell": 2,
+      "position": [
+        621,
+        498.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_15_4"
+      ],
+      "metadata": {}
+    },
+    "R15_B4_C2": {
+      "_id": "R15_B4_C2",
+      "warehouseID": "WH_Test",
+      "row": 15,
+      "bay": 4,
+      "cell": 2,
+      "position": [
+        621,
+        513.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_15_5"
+      ],
+      "metadata": {}
+    },
+    "R15_B5_C2": {
+      "_id": "R15_B5_C2",
+      "warehouseID": "WH_Test",
+      "row": 15,
+      "bay": 5,
+      "cell": 2,
+      "position": [
+        621,
+        527.5
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_15_6"
+      ],
+      "metadata": {}
+    },
+    "R15_B6_C2": {
+      "_id": "R15_B6_C2",
+      "warehouseID": "WH_Test",
+      "row": 15,
+      "bay": 6,
+      "cell": 2,
+      "position": [
+        621,
+        542.0
+      ],
+      "available": true,
+      "access_points": [
+        "PICK_15_7"
+      ],
+      "metadata": {}
+    }
+  },
+  "access_points": {
+    "Docking": {
+      "position": [
+        150,
+        570
+      ]
+    },
+    "PICK_1_13": {
+      "position": [
+        95.5,
+        95
+      ]
+    },
+    "PICK_1_14": {
+      "position": [
+        95.5,
+        76
+      ]
+    },
+    "PICK_1_11": {
+      "position": [
+        95.5,
+        134
+      ]
+    },
+    "PICK_1_12": {
+      "position": [
+        95.5,
+        115
+      ]
+    },
+    "PICK_1_9": {
+      "position": [
+        95.5,
+        173
+      ]
+    },
+    "PICK_1_10": {
+      "position": [
+        95.5,
+        154
+      ]
+    },
+    "PICK_1_7": {
+      "position": [
+        95.5,
+        212
+      ]
+    },
+    "PICK_1_8": {
+      "position": [
+        95.5,
+        193
+      ]
+    },
+    "PICK_1_5": {
+      "position": [
+        95.5,
+        251
+      ]
+    },
+    "PICK_1_6": {
+      "position": [
+        95.5,
+        232
+      ]
+    },
+    "PICK_1_3": {
+      "position": [
+        95.5,
+        290
+      ]
+    },
+    "PICK_1_4": {
+      "position": [
+        95.5,
+        271
+      ]
+    },
+    "PICK_1_1": {
+      "position": [
+        95.5,
+        329
+      ]
+    },
+    "PICK_1_2": {
+      "position": [
+        95.5,
+        310
+      ]
+    },
+    "PICK_2_13": {
+      "position": [
+        174.5,
+        95
+      ]
+    },
+    "PICK_2_14": {
+      "position": [
+        174.5,
+        76
+      ]
+    },
+    "PICK_2_11": {
+      "position": [
+        174.5,
+        134
+      ]
+    },
+    "PICK_2_12": {
+      "position": [
+        174.5,
+        115
+      ]
+    },
+    "PICK_2_9": {
+      "position": [
+        174.5,
+        173
+      ]
+    },
+    "PICK_2_10": {
+      "position": [
+        174.5,
+        154
+      ]
+    },
+    "PICK_2_7": {
+      "position": [
+        174.5,
+        212
+      ]
+    },
+    "PICK_2_8": {
+      "position": [
+        174.5,
+        193
+      ]
+    },
+    "PICK_2_5": {
+      "position": [
+        174.5,
+        251
+      ]
+    },
+    "PICK_2_6": {
+      "position": [
+        174.5,
+        232
+      ]
+    },
+    "PICK_2_3": {
+      "position": [
+        174.5,
+        290
+      ]
+    },
+    "PICK_2_4": {
+      "position": [
+        174.5,
+        271
+      ]
+    },
+    "PICK_2_1": {
+      "position": [
+        174.5,
+        329
+      ]
+    },
+    "PICK_2_2": {
+      "position": [
+        174.5,
+        310
+      ]
+    },
+    "PICK_3_15": {
+      "position": [
+        253.5,
+        95
+      ]
+    },
+    "PICK_3_16": {
+      "position": [
+        253.5,
+        76
+      ]
+    },
+    "PICK_3_13": {
+      "position": [
+        253.5,
+        134
+      ]
+    },
+    "PICK_3_14": {
+      "position": [
+        253.5,
+        115
+      ]
+    },
+    "PICK_3_11": {
+      "position": [
+        253.5,
+        173
+      ]
+    },
+    "PICK_3_12": {
+      "position": [
+        253.5,
+        154
+      ]
+    },
+    "PICK_3_9": {
+      "position": [
+        253.5,
+        212
+      ]
+    },
+    "PICK_3_10": {
+      "position": [
+        253.5,
+        193
+      ]
+    },
+    "PICK_3_7": {
+      "position": [
+        253.5,
+        251
+      ]
+    },
+    "PICK_3_8": {
+      "position": [
+        253.5,
+        232
+      ]
+    },
+    "PICK_3_5": {
+      "position": [
+        253.5,
+        290
+      ]
+    },
+    "PICK_3_6": {
+      "position": [
+        253.5,
+        271
+      ]
+    },
+    "PICK_3_3": {
+      "position": [
+        253.5,
+        329
+      ]
+    },
+    "PICK_3_4": {
+      "position": [
+        253.5,
+        310
+      ]
+    },
+    "PICK_3_1": {
+      "position": [
+        253.5,
+        368
+      ]
+    },
+    "PICK_3_2": {
+      "position": [
+        253.5,
+        349
+      ]
+    },
+    "PICK_4_15": {
+      "position": [
+        332.5,
+        95
+      ]
+    },
+    "PICK_4_16": {
+      "position": [
+        332.5,
+        76
+      ]
+    },
+    "PICK_4_13": {
+      "position": [
+        332.5,
+        134
+      ]
+    },
+    "PICK_4_14": {
+      "position": [
+        332.5,
+        115
+      ]
+    },
+    "PICK_4_11": {
+      "position": [
+        332.5,
+        173
+      ]
+    },
+    "PICK_4_12": {
+      "position": [
+        332.5,
+        154
+      ]
+    },
+    "PICK_4_9": {
+      "position": [
+        332.5,
+        212
+      ]
+    },
+    "PICK_4_10": {
+      "position": [
+        332.5,
+        193
+      ]
+    },
+    "PICK_4_7": {
+      "position": [
+        332.5,
+        251
+      ]
+    },
+    "PICK_4_8": {
+      "position": [
+        332.5,
+        232
+      ]
+    },
+    "PICK_4_5": {
+      "position": [
+        332.5,
+        290
+      ]
+    },
+    "PICK_4_6": {
+      "position": [
+        332.5,
+        271
+      ]
+    },
+    "PICK_4_3": {
+      "position": [
+        332.5,
+        329
+      ]
+    },
+    "PICK_4_4": {
+      "position": [
+        332.5,
+        310
+      ]
+    },
+    "PICK_4_1": {
+      "position": [
+        332.5,
+        368
+      ]
+    },
+    "PICK_4_2": {
+      "position": [
+        332.5,
+        349
+      ]
+    },
+    "PICK_5_15": {
+      "position": [
+        411.5,
+        95
+      ]
+    },
+    "PICK_5_16": {
+      "position": [
+        411.5,
+        76
+      ]
+    },
+    "PICK_5_13": {
+      "position": [
+        411.5,
+        134
+      ]
+    },
+    "PICK_5_14": {
+      "position": [
+        411.5,
+        115
+      ]
+    },
+    "PICK_5_11": {
+      "position": [
+        411.5,
+        173
+      ]
+    },
+    "PICK_5_12": {
+      "position": [
+        411.5,
+        154
+      ]
+    },
+    "PICK_5_9": {
+      "position": [
+        411.5,
+        212
+      ]
+    },
+    "PICK_5_10": {
+      "position": [
+        411.5,
+        193
+      ]
+    },
+    "PICK_5_7": {
+      "position": [
+        411.5,
+        251
+      ]
+    },
+    "PICK_5_8": {
+      "position": [
+        411.5,
+        232
+      ]
+    },
+    "PICK_5_5": {
+      "position": [
+        411.5,
+        290
+      ]
+    },
+    "PICK_5_6": {
+      "position": [
+        411.5,
+        271
+      ]
+    },
+    "PICK_5_3": {
+      "position": [
+        411.5,
+        329
+      ]
+    },
+    "PICK_5_4": {
+      "position": [
+        411.5,
+        310
+      ]
+    },
+    "PICK_5_1": {
+      "position": [
+        411.5,
+        368
+      ]
+    },
+    "PICK_5_2": {
+      "position": [
+        411.5,
+        349
+      ]
+    },
+    "PICK_6_15": {
+      "position": [
+        490.5,
+        95
+      ]
+    },
+    "PICK_6_16": {
+      "position": [
+        490.5,
+        76
+      ]
+    },
+    "PICK_6_13": {
+      "position": [
+        490.5,
+        134
+      ]
+    },
+    "PICK_6_14": {
+      "position": [
+        490.5,
+        115
+      ]
+    },
+    "PICK_6_11": {
+      "position": [
+        490.5,
+        173
+      ]
+    },
+    "PICK_6_12": {
+      "position": [
+        490.5,
+        154
+      ]
+    },
+    "PICK_6_9": {
+      "position": [
+        490.5,
+        212
+      ]
+    },
+    "PICK_6_10": {
+      "position": [
+        490.5,
+        193
+      ]
+    },
+    "PICK_6_7": {
+      "position": [
+        490.5,
+        251
+      ]
+    },
+    "PICK_6_8": {
+      "position": [
+        490.5,
+        232
+      ]
+    },
+    "PICK_6_5": {
+      "position": [
+        490.5,
+        290
+      ]
+    },
+    "PICK_6_6": {
+      "position": [
+        490.5,
+        271
+      ]
+    },
+    "PICK_6_3": {
+      "position": [
+        490.5,
+        329
+      ]
+    },
+    "PICK_6_4": {
+      "position": [
+        490.5,
+        310
+      ]
+    },
+    "PICK_6_1": {
+      "position": [
+        490.5,
+        368
+      ]
+    },
+    "PICK_6_2": {
+      "position": [
+        490.5,
+        349
+      ]
+    },
+    "PICK_7_15": {
+      "position": [
+        569.5,
+        95
+      ]
+    },
+    "PICK_7_16": {
+      "position": [
+        569.5,
+        76
+      ]
+    },
+    "PICK_7_13": {
+      "position": [
+        569.5,
+        134
+      ]
+    },
+    "PICK_7_14": {
+      "position": [
+        569.5,
+        115
+      ]
+    },
+    "PICK_7_11": {
+      "position": [
+        569.5,
+        173
+      ]
+    },
+    "PICK_7_12": {
+      "position": [
+        569.5,
+        154
+      ]
+    },
+    "PICK_7_9": {
+      "position": [
+        569.5,
+        212
+      ]
+    },
+    "PICK_7_10": {
+      "position": [
+        569.5,
+        193
+      ]
+    },
+    "PICK_7_7": {
+      "position": [
+        569.5,
+        251
+      ]
+    },
+    "PICK_7_8": {
+      "position": [
+        569.5,
+        232
+      ]
+    },
+    "PICK_7_5": {
+      "position": [
+        569.5,
+        290
+      ]
+    },
+    "PICK_7_6": {
+      "position": [
+        569.5,
+        271
+      ]
+    },
+    "PICK_7_3": {
+      "position": [
+        569.5,
+        329
+      ]
+    },
+    "PICK_7_4": {
+      "position": [
+        569.5,
+        310
+      ]
+    },
+    "PICK_7_1": {
+      "position": [
+        569.5,
+        368
+      ]
+    },
+    "PICK_7_2": {
+      "position": [
+        569.5,
+        349
+      ]
+    },
+    "PICK_8_15": {
+      "position": [
+        648.5,
+        95
+      ]
+    },
+    "PICK_8_16": {
+      "position": [
+        648.5,
+        76
+      ]
+    },
+    "PICK_8_13": {
+      "position": [
+        648.5,
+        134
+      ]
+    },
+    "PICK_8_14": {
+      "position": [
+        648.5,
+        115
+      ]
+    },
+    "PICK_8_11": {
+      "position": [
+        648.5,
+        173
+      ]
+    },
+    "PICK_8_12": {
+      "position": [
+        648.5,
+        154
+      ]
+    },
+    "PICK_8_9": {
+      "position": [
+        648.5,
+        212
+      ]
+    },
+    "PICK_8_10": {
+      "position": [
+        648.5,
+        193
+      ]
+    },
+    "PICK_8_7": {
+      "position": [
+        648.5,
+        251
+      ]
+    },
+    "PICK_8_8": {
+      "position": [
+        648.5,
+        232
+      ]
+    },
+    "PICK_8_5": {
+      "position": [
+        648.5,
+        290
+      ]
+    },
+    "PICK_8_6": {
+      "position": [
+        648.5,
+        271
+      ]
+    },
+    "PICK_8_3": {
+      "position": [
+        648.5,
+        329
+      ]
+    },
+    "PICK_8_4": {
+      "position": [
+        648.5,
+        310
+      ]
+    },
+    "PICK_8_1": {
+      "position": [
+        648.5,
+        368
+      ]
+    },
+    "PICK_8_2": {
+      "position": [
+        648.5,
+        349
+      ]
+    },
+    "PICK_9_15": {
+      "position": [
+        727.5,
+        95
+      ]
+    },
+    "PICK_9_16": {
+      "position": [
+        727.5,
+        76
+      ]
+    },
+    "PICK_9_13": {
+      "position": [
+        727.5,
+        134
+      ]
+    },
+    "PICK_9_14": {
+      "position": [
+        727.5,
+        115
+      ]
+    },
+    "PICK_9_11": {
+      "position": [
+        727.5,
+        173
+      ]
+    },
+    "PICK_9_12": {
+      "position": [
+        727.5,
+        154
+      ]
+    },
+    "PICK_9_9": {
+      "position": [
+        727.5,
+        212
+      ]
+    },
+    "PICK_9_10": {
+      "position": [
+        727.5,
+        193
+      ]
+    },
+    "PICK_9_7": {
+      "position": [
+        727.5,
+        251
+      ]
+    },
+    "PICK_9_8": {
+      "position": [
+        727.5,
+        232
+      ]
+    },
+    "PICK_9_5": {
+      "position": [
+        727.5,
+        290
+      ]
+    },
+    "PICK_9_6": {
+      "position": [
+        727.5,
+        271
+      ]
+    },
+    "PICK_9_3": {
+      "position": [
+        727.5,
+        329
+      ]
+    },
+    "PICK_9_4": {
+      "position": [
+        727.5,
+        310
+      ]
+    },
+    "PICK_9_1": {
+      "position": [
+        727.5,
+        368
+      ]
+    },
+    "PICK_9_2": {
+      "position": [
+        727.5,
+        349
+      ]
+    },
+    "PICK_10_1": {
+      "position": [
+        254.0,
+        455.0
+      ]
+    },
+    "PICK_10_2": {
+      "position": [
+        254.0,
+        469.5
+      ]
+    },
+    "PICK_10_3": {
+      "position": [
+        254.0,
+        484.0
+      ]
+    },
+    "PICK_10_4": {
+      "position": [
+        254.0,
+        498.5
+      ]
+    },
+    "PICK_10_5": {
+      "position": [
+        254.0,
+        513.0
+      ]
+    },
+    "PICK_10_6": {
+      "position": [
+        254.0,
+        527.5
+      ]
+    },
+    "PICK_10_7": {
+      "position": [
+        254.0,
+        542.0
+      ]
+    },
+    "PICK_11_1": {
+      "position": [
+        333.0,
+        455.0
+      ]
+    },
+    "PICK_11_2": {
+      "position": [
+        333.0,
+        469.5
+      ]
+    },
+    "PICK_11_3": {
+      "position": [
+        333.0,
+        484.0
+      ]
+    },
+    "PICK_11_4": {
+      "position": [
+        333.0,
+        498.5
+      ]
+    },
+    "PICK_11_5": {
+      "position": [
+        333.0,
+        513.0
+      ]
+    },
+    "PICK_11_6": {
+      "position": [
+        333.0,
+        527.5
+      ]
+    },
+    "PICK_11_7": {
+      "position": [
+        333.0,
+        542.0
+      ]
+    },
+    "PICK_12_1": {
+      "position": [
+        412.0,
+        455.0
+      ]
+    },
+    "PICK_12_2": {
+      "position": [
+        412.0,
+        469.5
+      ]
+    },
+    "PICK_12_3": {
+      "position": [
+        412.0,
+        484.0
+      ]
+    },
+    "PICK_12_4": {
+      "position": [
+        412.0,
+        498.5
+      ]
+    },
+    "PICK_12_5": {
+      "position": [
+        412.0,
+        513.0
+      ]
+    },
+    "PICK_12_6": {
+      "position": [
+        412.0,
+        527.5
+      ]
+    },
+    "PICK_12_7": {
+      "position": [
+        412.0,
+        542.0
+      ]
+    },
+    "PICK_13_1": {
+      "position": [
+        491.0,
+        455.0
+      ]
+    },
+    "PICK_13_2": {
+      "position": [
+        491.0,
+        469.5
+      ]
+    },
+    "PICK_13_3": {
+      "position": [
+        491.0,
+        484.0
+      ]
+    },
+    "PICK_13_4": {
+      "position": [
+        491.0,
+        498.5
+      ]
+    },
+    "PICK_13_5": {
+      "position": [
+        491.0,
+        513.0
+      ]
+    },
+    "PICK_13_6": {
+      "position": [
+        491.0,
+        527.5
+      ]
+    },
+    "PICK_13_7": {
+      "position": [
+        491.0,
+        542.0
+      ]
+    },
+    "PICK_14_1": {
+      "position": [
+        570.0,
+        455.0
+      ]
+    },
+    "PICK_14_2": {
+      "position": [
+        570.0,
+        469.5
+      ]
+    },
+    "PICK_14_3": {
+      "position": [
+        570.0,
+        484.0
+      ]
+    },
+    "PICK_14_4": {
+      "position": [
+        570.0,
+        498.5
+      ]
+    },
+    "PICK_14_5": {
+      "position": [
+        570.0,
+        513.0
+      ]
+    },
+    "PICK_14_6": {
+      "position": [
+        570.0,
+        527.5
+      ]
+    },
+    "PICK_14_7": {
+      "position": [
+        570.0,
+        542.0
+      ]
+    },
+    "PICK_15_1": {
+      "position": [
+        649.0,
+        455.0
+      ]
+    },
+    "PICK_15_2": {
+      "position": [
+        649.0,
+        469.5
+      ]
+    },
+    "PICK_15_3": {
+      "position": [
+        649.0,
+        484.0
+      ]
+    },
+    "PICK_15_4": {
+      "position": [
+        649.0,
+        498.5
+      ]
+    },
+    "PICK_15_5": {
+      "position": [
+        649.0,
+        513.0
+      ]
+    },
+    "PICK_15_6": {
+      "position": [
+        649.0,
+        527.5
+      ]
+    },
+    "PICK_15_7": {
+      "position": [
+        649.0,
+        542.0
+      ]
+    },
+    "AP_1": {
+      "position": [
+        96,
+        368
+      ]
+    },
+    "AP_2": {
+      "position": [
+        175,
+        368
+      ]
+    },
+    "AP_3A": {
+      "position": [
+        254,
+        368
+      ]
+    },
+    "AP_3": {
+      "position": [
+        254,
+        420
+      ]
+    },
+    "AP_4": {
+      "position": [
+        333,
+        420
+      ]
+    },
+    "AP_5": {
+      "position": [
+        412,
+        420
+      ]
+    },
+    "AP_6": {
+      "position": [
+        491,
+        420
+      ]
+    },
+    "AP_7": {
+      "position": [
+        570,
+        420
+      ]
+    },
+    "AP_8": {
+      "position": [
+        649,
+        420
+      ]
+    },
+    "AP_9": {
+      "position": [
+        728,
+        420
+      ]
+    },
+    "AP_10": {
+      "position": [
+        254,
+        570
+      ]
+    },
+    "AP_11": {
+      "position": [
+        333,
+        570
+      ]
+    },
+    "AP_12": {
+      "position": [
+        412,
+        570
+      ]
+    },
+    "AP_13": {
+      "position": [
+        491,
+        570
+      ]
+    },
+    "AP_14": {
+      "position": [
+        570,
+        570
+      ]
+    },
+    "AP_15": {
+      "position": [
+        649,
+        570
+      ]
+    }
+  },
+  "edges": [
+    {
+      "from": "AP_1",
+      "to": "PICK_1_1",
+      "distance": 39.003204996512785,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_2",
+      "distance": 58.00215513237418,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_3",
+      "distance": 78.00160254764,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_4",
+      "distance": 97.0012886512339,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_5",
+      "distance": 117.00106837119053,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_6",
+      "distance": 136.0009191145413,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_7",
+      "distance": 156.00080127999342,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_8",
+      "distance": 175.00071428425656,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_9",
+      "distance": 195.0006410245874,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_10",
+      "distance": 214.00058411135237,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_11",
+      "distance": 234.00053418742445,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_12",
+      "distance": 253.00049407066382,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_13",
+      "distance": 273.0004578750739,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "PICK_1_14",
+      "distance": 292.000428081878,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_1",
+      "distance": 39.003204996512785,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_2",
+      "distance": 58.00215513237418,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_3",
+      "distance": 78.00160254764,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_4",
+      "distance": 97.0012886512339,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_5",
+      "distance": 117.00106837119053,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_6",
+      "distance": 136.0009191145413,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_7",
+      "distance": 156.00080127999342,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_8",
+      "distance": 175.00071428425656,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_9",
+      "distance": 195.0006410245874,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_10",
+      "distance": 214.00058411135237,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_11",
+      "distance": 234.00053418742445,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_12",
+      "distance": 253.00049407066382,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_13",
+      "distance": 273.0004578750739,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "PICK_2_14",
+      "distance": 292.000428081878,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_1",
+      "to": "AP_2",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_2",
+      "to": "AP_3A",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_2",
+      "distance": 19.00657780874821,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_3",
+      "distance": 39.003204996512785,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_4",
+      "distance": 58.00215513237418,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_5",
+      "distance": 78.00160254764,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_6",
+      "distance": 97.0012886512339,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_7",
+      "distance": 117.00106837119053,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_8",
+      "distance": 136.0009191145413,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_9",
+      "distance": 156.00080127999342,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_10",
+      "distance": 175.00071428425656,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_11",
+      "distance": 195.0006410245874,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_12",
+      "distance": 214.00058411135237,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_13",
+      "distance": 234.00053418742445,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_14",
+      "distance": 253.00049407066382,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_15",
+      "distance": 273.0004578750739,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3A",
+      "to": "PICK_3_16",
+      "distance": 292.000428081878,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3",
+      "to": "AP_3A",
+      "distance": 52.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3",
+      "to": "PICK_10_1",
+      "distance": 35.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3",
+      "to": "PICK_10_2",
+      "distance": 49.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3",
+      "to": "PICK_10_3",
+      "distance": 64.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3",
+      "to": "PICK_10_4",
+      "distance": 78.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3",
+      "to": "PICK_10_5",
+      "distance": 93.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3",
+      "to": "PICK_10_6",
+      "distance": 107.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_3",
+      "to": "PICK_10_7",
+      "distance": 122.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_1",
+      "distance": 52.002403790594144,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_2",
+      "distance": 71.00176054155277,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_3",
+      "distance": 91.00137361600648,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_4",
+      "distance": 110.00113635776678,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_5",
+      "distance": 130.00096153490557,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_6",
+      "distance": 149.00083892381278,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_7",
+      "distance": 169.00073964335186,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_8",
+      "distance": 188.00066489244128,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_9",
+      "distance": 208.0006009606703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_10",
+      "distance": 227.00055066012504,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_11",
+      "distance": 247.00050607235605,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_12",
+      "distance": 266.00046992439695,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_13",
+      "distance": 286.0004370626031,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_14",
+      "distance": 305.0004098357902,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_15",
+      "distance": 325.00038461515703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_4_16",
+      "distance": 344.00036337190113,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_11_1",
+      "distance": 35.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_11_2",
+      "distance": 49.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_11_3",
+      "distance": 64.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_11_4",
+      "distance": 78.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_11_5",
+      "distance": 93.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_11_6",
+      "distance": 107.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "PICK_11_7",
+      "distance": 122.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_4",
+      "to": "AP_3",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_1",
+      "distance": 52.002403790594144,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_2",
+      "distance": 71.00176054155277,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_3",
+      "distance": 91.00137361600648,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_4",
+      "distance": 110.00113635776678,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_5",
+      "distance": 130.00096153490557,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_6",
+      "distance": 149.00083892381278,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_7",
+      "distance": 169.00073964335186,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_8",
+      "distance": 188.00066489244128,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_9",
+      "distance": 208.0006009606703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_10",
+      "distance": 227.00055066012504,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_11",
+      "distance": 247.00050607235605,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_12",
+      "distance": 266.00046992439695,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_13",
+      "distance": 286.0004370626031,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_14",
+      "distance": 305.0004098357902,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_15",
+      "distance": 325.00038461515703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_5_16",
+      "distance": 344.00036337190113,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_12_1",
+      "distance": 35.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_12_2",
+      "distance": 49.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_12_3",
+      "distance": 64.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_12_4",
+      "distance": 78.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_12_5",
+      "distance": 93.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_12_6",
+      "distance": 107.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "PICK_12_7",
+      "distance": 122.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_5",
+      "to": "AP_4",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_1",
+      "distance": 52.002403790594144,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_2",
+      "distance": 71.00176054155277,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_3",
+      "distance": 91.00137361600648,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_4",
+      "distance": 110.00113635776678,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_5",
+      "distance": 130.00096153490557,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_6",
+      "distance": 149.00083892381278,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_7",
+      "distance": 169.00073964335186,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_8",
+      "distance": 188.00066489244128,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_9",
+      "distance": 208.0006009606703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_10",
+      "distance": 227.00055066012504,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_11",
+      "distance": 247.00050607235605,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_12",
+      "distance": 266.00046992439695,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_13",
+      "distance": 286.0004370626031,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_14",
+      "distance": 305.0004098357902,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_15",
+      "distance": 325.00038461515703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_6_16",
+      "distance": 344.00036337190113,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_13_1",
+      "distance": 35.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_13_2",
+      "distance": 49.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_13_3",
+      "distance": 64.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_13_4",
+      "distance": 78.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_13_5",
+      "distance": 93.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_13_6",
+      "distance": 107.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "PICK_13_7",
+      "distance": 122.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_6",
+      "to": "AP_5",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_1",
+      "distance": 52.002403790594144,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_2",
+      "distance": 71.00176054155277,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_3",
+      "distance": 91.00137361600648,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_4",
+      "distance": 110.00113635776678,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_5",
+      "distance": 130.00096153490557,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_6",
+      "distance": 149.00083892381278,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_7",
+      "distance": 169.00073964335186,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_8",
+      "distance": 188.00066489244128,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_9",
+      "distance": 208.0006009606703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_10",
+      "distance": 227.00055066012504,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_11",
+      "distance": 247.00050607235605,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_12",
+      "distance": 266.00046992439695,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_13",
+      "distance": 286.0004370626031,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_14",
+      "distance": 305.0004098357902,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_15",
+      "distance": 325.00038461515703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_7_16",
+      "distance": 344.00036337190113,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_14_1",
+      "distance": 35.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_14_2",
+      "distance": 49.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_14_3",
+      "distance": 64.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_14_4",
+      "distance": 78.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_14_5",
+      "distance": 93.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_14_6",
+      "distance": 107.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "PICK_14_7",
+      "distance": 122.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_7",
+      "to": "AP_6",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_1",
+      "distance": 52.002403790594144,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_2",
+      "distance": 71.00176054155277,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_3",
+      "distance": 91.00137361600648,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_4",
+      "distance": 110.00113635776678,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_5",
+      "distance": 130.00096153490557,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_6",
+      "distance": 149.00083892381278,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_7",
+      "distance": 169.00073964335186,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_8",
+      "distance": 188.00066489244128,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_9",
+      "distance": 208.0006009606703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_10",
+      "distance": 227.00055066012504,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_11",
+      "distance": 247.00050607235605,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_12",
+      "distance": 266.00046992439695,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_13",
+      "distance": 286.0004370626031,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_14",
+      "distance": 305.0004098357902,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_15",
+      "distance": 325.00038461515703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_8_16",
+      "distance": 344.00036337190113,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_15_1",
+      "distance": 35.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_15_2",
+      "distance": 49.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_15_3",
+      "distance": 64.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_15_4",
+      "distance": 78.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_15_5",
+      "distance": 93.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_15_6",
+      "distance": 107.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "PICK_15_7",
+      "distance": 122.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_8",
+      "to": "AP_7",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_1",
+      "distance": 52.002403790594144,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_2",
+      "distance": 71.00176054155277,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_3",
+      "distance": 91.00137361600648,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_4",
+      "distance": 110.00113635776678,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_5",
+      "distance": 130.00096153490557,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_6",
+      "distance": 149.00083892381278,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_7",
+      "distance": 169.00073964335186,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_8",
+      "distance": 188.00066489244128,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_9",
+      "distance": 208.0006009606703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_10",
+      "distance": 227.00055066012504,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_11",
+      "distance": 247.00050607235605,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_12",
+      "distance": 266.00046992439695,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_13",
+      "distance": 286.0004370626031,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_14",
+      "distance": 305.0004098357902,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_15",
+      "distance": 325.00038461515703,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "PICK_9_16",
+      "distance": 344.00036337190113,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_9",
+      "to": "AP_8",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_10",
+      "to": "AP_3",
+      "distance": 150.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_10",
+      "to": "PICK_10_1",
+      "distance": 115.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_10",
+      "to": "PICK_10_2",
+      "distance": 100.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_10",
+      "to": "PICK_10_3",
+      "distance": 86.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_10",
+      "to": "PICK_10_4",
+      "distance": 71.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_10",
+      "to": "PICK_10_5",
+      "distance": 57.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_10",
+      "to": "PICK_10_6",
+      "distance": 42.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_11",
+      "to": "AP_4",
+      "distance": 150.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_11",
+      "to": "PICK_11_1",
+      "distance": 115.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_11",
+      "to": "PICK_11_2",
+      "distance": 100.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_11",
+      "to": "PICK_11_3",
+      "distance": 86.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_11",
+      "to": "PICK_11_4",
+      "distance": 71.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_11",
+      "to": "PICK_11_5",
+      "distance": 57.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_11",
+      "to": "PICK_11_6",
+      "distance": 42.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_11",
+      "to": "AP_10",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_12",
+      "to": "AP_5",
+      "distance": 150.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_12",
+      "to": "PICK_12_1",
+      "distance": 115.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_12",
+      "to": "PICK_12_2",
+      "distance": 100.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_12",
+      "to": "PICK_12_3",
+      "distance": 86.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_12",
+      "to": "PICK_12_4",
+      "distance": 71.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_12",
+      "to": "PICK_12_5",
+      "distance": 57.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_12",
+      "to": "PICK_12_6",
+      "distance": 42.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_12",
+      "to": "AP_11",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_13",
+      "to": "AP_6",
+      "distance": 150.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_13",
+      "to": "PICK_13_1",
+      "distance": 115.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_13",
+      "to": "PICK_13_2",
+      "distance": 100.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_13",
+      "to": "PICK_13_3",
+      "distance": 86.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_13",
+      "to": "PICK_13_4",
+      "distance": 71.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_13",
+      "to": "PICK_13_5",
+      "distance": 57.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_13",
+      "to": "PICK_13_6",
+      "distance": 42.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_13",
+      "to": "AP_12",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_14",
+      "to": "AP_7",
+      "distance": 150.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_14",
+      "to": "PICK_14_1",
+      "distance": 115.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_14",
+      "to": "PICK_14_2",
+      "distance": 100.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_14",
+      "to": "PICK_14_3",
+      "distance": 86.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_14",
+      "to": "PICK_14_4",
+      "distance": 71.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_14",
+      "to": "PICK_14_5",
+      "distance": 57.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_14",
+      "to": "PICK_14_6",
+      "distance": 42.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_14",
+      "to": "AP_13",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_15",
+      "to": "AP_8",
+      "distance": 150.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_15",
+      "to": "PICK_15_1",
+      "distance": 115.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_15",
+      "to": "PICK_15_2",
+      "distance": 100.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_15",
+      "to": "PICK_15_3",
+      "distance": 86.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_15",
+      "to": "PICK_15_4",
+      "distance": 71.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_15",
+      "to": "PICK_15_5",
+      "distance": 57.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_15",
+      "to": "PICK_15_6",
+      "distance": 42.5,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_15",
+      "to": "AP_14",
+      "distance": 79.0,
+      "bidirectional": true
+    },
+    {
+      "from": "AP_10",
+      "to": "Docking",
+      "distance": 104.0,
+      "bidirectional": true
+    }
+  ],
+  "labels": [
+    {
+      "label": "Packing",
+      "position": [
+        110,
+        423
+      ],
+      "type": "default"
+    },
+    {
+      "label": "Receiving\nand shipping",
+      "position": [
+        70,
+        485
+      ],
+      "type": "default"
+    },
+    {
+      "label": "Docking",
+      "position": [
+        125,
+        550
+      ],
+      "type": "default"
+    },
+    {
+      "label": "Warehouse\noffice",
+      "position": [
+        415,
+        670
+      ],
+      "type": "center"
+    },
+    {
+      "label": "Pallet Racking",
+      "position": [
+        295,
+        387
+      ],
+      "type": "default"
+    },
+    {
+      "label": "Pallet Racking\n&Pick Shelving",
+      "position": [
+        650,
+        387
+      ],
+      "type": "default"
+    },
+    {
+      "label": "MHE\ncharging",
+      "position": [
+        730,
+        450
+      ],
+      "type": "center"
+    },
+    {
+      "label": "R1",
+      "position": [
+        85,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R2",
+      "position": [
+        164,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R3",
+      "position": [
+        243,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R4",
+      "position": [
+        322,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R5",
+      "position": [
+        401,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R6",
+      "position": [
+        480,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R7",
+      "position": [
+        559,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R8",
+      "position": [
+        638,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R9",
+      "position": [
+        717,
+        90
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R10",
+      "position": [
+        240,
+        460
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R11",
+      "position": [
+        319,
+        460
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R12",
+      "position": [
+        398,
+        460
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R13",
+      "position": [
+        477,
+        460
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R14",
+      "position": [
+        556,
+        460
+      ],
+      "type": "row_label"
+    },
+    {
+      "label": "R15",
+      "position": [
+        635,
+        460
+      ],
+      "type": "row_label"
+    }
+  ],
+  "label_types": {
+    "default": {
+      "fontsize": 8,
+      "color": "black",
+      "ha": "left",
+      "va": "top"
+    },
+    "center": {
+      "fontsize": 8,
+      "color": "black",
+      "ha": "center",
+      "va": "center"
+    },
+    "row_label": {
+      "fontsize": 10,
+      "color": "red",
+      "ha": "left",
+      "va": "center",
+      "bbox": {
+        "boxstyle": "round,pad=0.5",
+        "facecolor": "#f0f0f0",
+        "edgecolor": "#333333",
+        "linewidth": 1.5
+      }
+    }
+  }
+}

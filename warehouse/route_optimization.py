@@ -1,8 +1,10 @@
 import heapq
-import json
+import re
 import os
 from itertools import combinations
 from collections import OrderedDict
+import numpy as np
+
 
 class RouteCache:
     def __init__(self, max_size=100):
@@ -26,42 +28,9 @@ class RouteCache:
 
     def clear(self):
         self.cache.clear()
-
-
-route_cache = RouteCache(max_size=100)
-
-
-def get_cache_size():
-    """Get the current size of the route cache."""
-    return len(route_cache.cache)
-
-
-def clear_route_cache():
-    """Clear the route cache. Call this when the graph is modified."""
-    route_cache.clear()
-
-
-def load_graph(path):
-    """Load a graph from a JSON file."""
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"Graph file not found: {path}")
-
-    with open(path, "r", encoding="utf-8") as f:
-        graph = json.load(f)
-
-    if not isinstance(graph, dict):
-        raise ValueError("Graph JSON must be a dictionary of adjacency mappings")
-
-    return graph
-
-
-def save_graph(path, graph):
-    """Persist graph structure to a JSON file."""
-    if not isinstance(graph, dict):
-        raise ValueError("Graph must be a dictionary")
-
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(graph, f, indent=2)
+    
+    def size(self):
+        return len(self.cache)
 
 
 def dijkstra(graph, start):
@@ -122,106 +91,107 @@ def dijkstra(graph, start):
                 previous[neighbor] = current_node
                 heapq.heappush(priority_queue, (new_distance, neighbor))
 
-    return distances, previous
+    return {
+        "distances": distances,
+        "previous": previous
+    }
 
-class SingleRoute:
-    def __init__(self, graph, start):
-        self.graph = graph
-        self.start = start
-        if self.start not in self.graph:
-            raise KeyError(f"Start node not found in graph: {self.start}")
-        cached = route_cache.get(start)
-        if cached:
-            self.distances = cached.distances
-            self.previous = cached.previous
-        else:
-            self.distances, self.previous = dijkstra(self.graph, self.start)
-            route_cache.set(start, self)
-            
 
-    def get_route(self, target):
-        """Get a specific route from start to target from the stored route table."""
-        if target not in self.graph:
-            raise KeyError(f"Target node not found in graph: {target}")
+def get_direct_path(distances, previous, target):
+    """Get a specific route from start to target from the stored route table."""
+    if target not in distances:
+        raise KeyError(f"Target node not found in graph: {target}")
 
-        if self.distances[target] == float("inf"):
-            # target not reachable from start
-            return {
-                "distance": float("inf"),
-                "path": []
-            }
+    if distances[target] == float("inf"):
+        # target not reachable from start
+        return []
 
-        path = []
-        current = target
+    path = []
+    current = target
 
-        while current is not None:
-            path.append(current)
-            current = self.previous[current]
+    while current is not None:
+        path.append(current)
+        current = previous[current]
 
-        path.reverse()
-        return {
-            "distance": self.distances[target],
-            "path": path
-        }
+    path.reverse()
+    return path
 
-def route_with_stops(graph, nodes, round_trip=True, optimize=True):
-    
-    if not optimize:
-        # Follow nodes in given order without optimization
-        total_distance = 0
-        full_path = []
-        route_table = {}
-        
-        for i in range(len(nodes) - 1):
-            start_node = nodes[i]
-            end_node = nodes[i + 1]
-            
-            if start_node not in route_table:
-                route_table[start_node] = SingleRoute(graph, start_node)
-            
-            segment = route_table[start_node].get_route(end_node)
-            if segment["distance"] == float("inf"):
-                raise ValueError(f"No path from {start_node} to {end_node}")
-            
-            total_distance += segment["distance"]
-            if full_path:
-                # Avoid duplicating nodes at junctions
-                full_path.extend(segment["path"][1:])
+
+class RouteOptimizer:
+    def __init__(self, warehouse, max_cache_size=100):
+        # warehouse is a warehouse layout, see for example warehouse_layout.json in the layout folder
+        self.warehouse = warehouse
+        self.route_cache = RouteCache(max_size=max_cache_size)
+        self.nodes = None
+        self.base_graph = {}
+        for edge in self.warehouse.edges:
+            from_node = edge["from"]
+            to_node = edge["to"]
+            distance = edge["distance"]
+            if from_node not in self.base_graph:
+                self.base_graph[from_node] = {}
+            if to_node not in self.base_graph:
+                self.base_graph[to_node] = {}
+            self.base_graph[from_node][to_node] = distance
+            if edge.get("bidirectional", False):
+                self.base_graph[to_node][from_node] = distance
+
+    def set_route(self, nodes):
+        # nodes is a list of nodes, for example ["Docking", "PICK_1_1", "PICK_2_1"]
+        self.nodes = nodes
+        for node in nodes:
+            if node not in self.warehouse.access_points and node not in self.warehouse.locations:
+                raise KeyError(f"Node not found in warehouse: {node}")
+        self.access_points = [ node for node in self.warehouse.access_points if not node.startswith("PICK_")]
+        self.route_nodes = []
+        self.pick_nodes = {}
+        for node in nodes:
+            if node in self.warehouse.locations:
+                pick_node = self.warehouse.locations[node]["access_points"][0]
+                self.route_nodes.append(pick_node)
+                self.access_points.append(pick_node)
+                m = re.match(r"PICK_(\d+)_(\d+)", pick_node)
+                if m:
+                    row = int(m.group(1))
+                    bay = int(m.group(2))
+                    if row not in self.pick_nodes:
+                        self.pick_nodes[row] = []
+                    self.pick_nodes[row].append(pick_node)
+                else:
+                    raise ValueError(f"Invalid pick node format: {pick_node}")
             else:
-                full_path.extend(segment["path"])
-        
-        if round_trip and len(nodes) > 1:
-            # Add return trip from last to first
-            last_node = nodes[-1]
-            first_node = nodes[0]
-            
-            if last_node not in route_table:
-                route_table[last_node] = SingleRoute(graph, last_node)
-            
-            return_segment = route_table[last_node].get_route(first_node)
-            if return_segment["distance"] == float("inf"):
-                raise ValueError(f"No path from {last_node} to {first_node}")
-            
-            total_distance += return_segment["distance"]
-            full_path.extend(return_segment["path"][1:])
-        
-        return {"distance": total_distance, "path": full_path}
+                self.route_nodes.append(node)
+        self.graph = {}
+        for node in self.access_points:
+            edges = self.base_graph[node]
+            self.graph[node] = { neighbor: edges[neighbor] for neighbor in edges if neighbor in self.access_points}
+        for row, pick_nodes in self.pick_nodes.items():
+            if len(pick_nodes) > 1:
+                for p1, p2 in combinations(pick_nodes, 2):
+                    self.graph[p1][p2] = np.linalg.norm(np.array(self.warehouse.access_points[p1]["position"]) - np.array(self.warehouse.access_points[p2]["position"]))
+                    self.graph[p2][p1] = self.graph[p1][p2]
+        return self
     
-    # Original optimized TSP logic
-    route_table = {node: SingleRoute(graph, node) for node in nodes}
-    distances = [[route_table[node].distances[target] for target in nodes] for node in nodes]
+    def optimize_route(self, round_trip=False):
+        if self.route_nodes is None:
+            raise ValueError("Route nodes not set. Call set_route(nodes) first.")
+        
+        # Original optimized TSP logic
+        route_table = {node: dijkstra(self.graph, node) for node in self.route_nodes}
+        distances = [[route_table[node]["distances"][target] for target in self.route_nodes] for node in self.route_nodes]
 
-    if round_trip:
-        cost, tour = held_karp_with_path(distances, start=0, round_trip=True)
-    else:
-        end = len(nodes) - 1
-        cost, tour = held_karp_with_path(distances, start=0, round_trip=False, end=end)
-    graph_tour = [ route_table[nodes[i]].get_route(nodes[j])["path"] for i, j in zip(tour[:-1], tour[1:]) ]
-    graph_tour = [node for segment in graph_tour for node in segment[:-1]] + [nodes[tour[-1]]]
-    return {"distance": cost, "path": graph_tour}
+        cost, tour = held_karp_with_path(distances, start=0, round_trip=round_trip)
+        graph_tour = []
+        for i, j in zip(tour[:-1], tour[1:]) :
+            node = self.route_nodes[i]
+            target = self.route_nodes[j]
+            path = get_direct_path(route_table[node]["distances"], route_table[node]["previous"], target)
+            graph_tour.append(path)
+        graph_tour = [node for segment in graph_tour for node in segment[:-1]] + [self.route_nodes[tour[-1]]]
+        return {"distance": cost, "path": graph_tour}
 
 
-def held_karp_with_path(dist, start=0, round_trip=True, end=None):
+def held_karp_with_path(dist, start=0, round_trip=True):
     """
     Solve the TSP path problem exactly with Held-Karp dynamic programming.
 
@@ -255,8 +225,7 @@ def held_karp_with_path(dist, start=0, round_trip=True, end=None):
     if n == 1:
         return (0, [start, start]) if round_trip else (0, [start])
 
-    if end is None:
-        end = start if round_trip else n - 1
+    end = start if round_trip else n - 1
 
     dp = {}
 
